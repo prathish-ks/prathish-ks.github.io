@@ -8,7 +8,7 @@ vendor documentation.
 
 ## Forecast registry
 
-Dated, falsifiable forecasts live at [/registry/](https://prathish-ks.github.io/registry/).
+Dated, falsifiable forecasts live at [prathish.com/registry/](https://prathish.com/registry/).
 Each carries a confidence level, a leading indicator anyone can check, and a resolution date.
 
 Resolved forecasts stay published whether they landed or not. **The commit history of this
