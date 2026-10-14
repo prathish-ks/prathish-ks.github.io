@@ -1,0 +1,18 @@
+title: Prathish Kumar Srinivasan
+description: >-
+  Independent research on enterprise software economics — what organisations
+  actually pay, what they actually buy, and whether the forecasts hold up.
+theme: minima
+show_excerpts: true
+permalink: /:year/:month/:slug/
+
+header_pages:
+  - registry/index.md
+  - about.md
+
+exclude:
+  - README.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
