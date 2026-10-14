@@ -10,8 +10,9 @@ a leading indicator you can check yourself, and a resolution date.
 **Resolved forecasts stay here whether they landed or not.** Publishing the misses is the point —
 a track record you can only see when it flatters me is not a track record.
 
-The commit history of [this site's repository](https://github.com/prathish-ks) is the dated
-record. Entries are not edited after publication; corrections appear as new rows.
+[The commit history of this site](https://github.com/prathish-ks/prathish-ks.github.io/commits/main)
+is the dated record — check it yourself. Entries are not edited after publication; corrections
+appear as new rows.
 
 ## Open
 
