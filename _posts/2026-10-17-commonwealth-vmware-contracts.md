@@ -6,16 +6,19 @@ date: 2026-10-17
 slug: commonwealth-vmware-contracts
 ---
 
-Eleven Australian Commonwealth agencies hold **A$485 million** in contracts where VMware is the
-named supplier, expiring between March 2027 and December 2028. All were signed after Broadcom
-completed its acquisition of VMware, and 79% by value was signed in 2025 or later.
+Eleven Australian Commonwealth agencies have roughly **A$485 million** in published contracts
+naming VMware as supplier, expiring across 2027 and 2028. All were signed after Broadcom
+completed its acquisition, and 79% by value was signed in 2025 or later.
 
-Across the agencies where both periods can be compared, annualised spend has risen about 20%.
-The largest buyer's has fallen slightly. And by the clearest available leading indicator —
-hiring — there is little sign of migration away from the platform in this market.
+The number matters less than what happens next. Each of those agencies will face the same
+decision: renew, move some workloads, or move the lot. I wanted to know what the public record
+could tell a buyer approaching that choice — and, just as usefully, what it couldn't.
 
-This is what the public record shows, where it is ambiguous, and what it is useful for if you
-are approaching a renewal of your own.
+Three things came out of it. Contract consolidation makes published values badly misleading if
+you compare them the obvious way. The expiries cluster hard in 2028. And the Australian hiring
+market shows far more demand for VMware skills than for any alternative — which says something
+about how practical a migration threat is as a negotiating position, though less than you might
+first think.
 
 ## When the contracts expire
 
@@ -44,16 +47,16 @@ Nearly four-fifths of the value sits in 2028. For a vendor, that is when this ma
 a buyer, it means a substantial number of organisations will reach the same decision at roughly
 the same time — which affects how much attention any one of them can expect to command.
 
-## What has happened to annualised spend
+## What has happened to annualised contracted value
 
 Comparing individual contracts across periods produces misleading results, because the structure
-of these agreements has changed. The meaningful comparison is **total annualised spend per
+of these agreements has changed. The meaningful comparison is **total annualised contracted value per
 agency** — every contract an agency held, normalised by duration.
 
 <figure>
-  <svg viewBox="0 0 640 224" role="img" aria-label="The largest buyer is paying slightly less. Dept of Defence: 0.9x. Services Australia: 2.5x. Foreign Affairs &amp; Trade: 2.0x. Combined, these three: 1.2x.">
-  <text x="0" y="20" font-size="15.5" font-weight="600" fill="var(--text)">The largest buyer is paying slightly less</text>
-  <text x="0" y="40" font-size="12" fill="var(--muted)">Change in annualised VMware spend, earlier contracts to current</text>
+  <svg viewBox="0 0 640 224" role="img" aria-label="The largest buyer's contracted value is slightly lower. Dept of Defence: 0.9x. Services Australia: 2.5x. Foreign Affairs &amp; Trade: 2.0x. Combined, these three: 1.2x.">
+  <text x="0" y="20" font-size="15.5" font-weight="600" fill="var(--text)">The largest buyer's contracted value is slightly lower</text>
+  <text x="0" y="40" font-size="12" fill="var(--muted)">Change in annualised VMware contracted value, earlier contracts to current</text>
   <line x1="332.3" y1="50" x2="332.3" y2="190" stroke="var(--muted)" stroke-width="1.5" stroke-dasharray="3 3"/>
   <text x="332.3" y="206" font-size="11.5" text-anchor="middle" fill="var(--muted)">no change (1.0x)</text>
   <text x="178" y="70" font-size="12.5" text-anchor="end" fill="var(--text)">Dept of Defence</text>
@@ -73,12 +76,15 @@ agency** — every contract an agency held, normalised by duration.
   <figcaption>Annualised = contract value ÷ duration × 365.25, summed across every contract an agency held in each period.</figcaption>
 </figure>
 
-Two cautions on reading this. The Employment and Workplace Relations ratio rests on an earlier
-base of A$229,000 across two contracts — too small to carry weight. And only four of the eleven
-agencies have both periods visible in the data.
+**This is a four-agency matched cohort, not a Commonwealth-wide figure.** Only four of the eleven
+agencies have earlier VMware contracts visible in the data — they account for 70% of current
+value, but the remaining seven are simply absent from the comparison. The Employment and
+Workplace Relations ratio also rests on an earlier base of A$229,000 across two contracts, too
+small to carry weight.
 
-With those caveats, the aggregate picture is a roughly 20% increase in annualised spend, and the
-largest buyer is slightly below where it was.
+Within that cohort, annualised contracted value rose about 20%, and the largest buyer sits
+slightly below where it was. **It does not support a conclusion about Commonwealth VMware cost
+inflation generally**, and I would not use it that way.
 
 ## Why single-contract comparisons mislead
 
@@ -90,14 +96,14 @@ value of A$95.9 million. **One contract worth A$178 million began on 12 December
 three years.
 
 Set against Defence's largest earlier contract — A$14.07 million — the new agreement looks like a
-twelvefold increase. Set against all 47 of the contracts it replaced, annualised spend went
-slightly down.
+twelvefold increase. Set against all 47 of the contracts it replaced, annualised contracted value was slightly
+lower.
 
 The consolidation is the story, not the headline number. Whether it reflects Broadcom's packaging,
 Defence's own procurement strategy, or both, is not determinable from published data.
 
-**If you are benchmarking your own position, compare total annualised spend across all agreements,
-not contract against contract.** The published values invite the wrong comparison.
+**If you are benchmarking your own position, compare total annualised contracted value across all
+agreements, not contract against contract.** The published values invite the wrong comparison.
 
 ## The migration question
 
@@ -129,9 +135,19 @@ Advertised roles in Australia, exact-phrase, as at 14 October 2026:
   <figcaption>Exact-phrase searches on Seek, Australia-wide, 14 October 2026.</figcaption>
 </figure>
 
-VMware exceeds Nutanix by seventeen to one. No migration-programme hiring was found in Australia.
-The VMware roles being advertised are predominantly administrators for VMware Cloud Foundation —
-positions that support continued operation rather than exit.
+VMware exceeds Nutanix by seventeen to one, and the VMware roles being advertised are
+predominantly administrators for VMware Cloud Foundation — positions that support continued
+operation rather than an exit.
+
+**That is weaker evidence than it first appears, and worth being careful with.** I found no
+advertisements naming a migration programme, but recruitment is an indirect signal. A migration
+may be delivered by a systems integrator, an existing partner, an offshore team or redeployed
+internal staff, none of which produce a public advertisement. Vacancies are also often written
+as "infrastructure modernisation" without naming a destination platform.
+
+So the honest reading is narrower than "nobody is migrating": Australian advertisements show
+substantially more demand for VMware skills than for the alternatives, which is consistent with
+continued VMware dependence. It does not establish whether migration programmes are under way.
 
 ## Microsoft is the larger alternative, by a factor of eight
 
@@ -175,8 +191,12 @@ close to each other at 17–19%.
 
 Two observations worth drawing out. Proxmox outnumbers Nutanix in the UK, and the US has
 twenty-three times Australia's Nutanix count against ten times the VMware base — so the gap is
-not simply a function of market size. Australia appears to be genuinely further behind on
-alternative-platform skills than either comparison market.
+not simply a function of market size.
+
+**But these are three different job boards with different employer populations**, and a similar
+ratio does not establish a similar market. Seek dominates Australian general recruitment; Dice is
+a United States technology specialist; Reed is a British generalist. The comparison is suggestive
+of a thinner Australian alternative-platform market. It is not a measurement of one.
 
 **One cross-market measure does not survive scrutiny, and it is worth saying so.** Hyper-V as a
 share of VMware ranges from 23% in the US to 49% in Australia to 75% in the UK. That spread is
@@ -189,15 +209,36 @@ For a buyer, the practical reading is this: if the migration skills market in th
 thin, Australia's is thinner. An exit plan that assumes you can hire locally is making a stronger
 assumption here than the same plan would make elsewhere.
 
-## What this is useful for
+## Three ways this decision usually goes
 
-**Comparative pricing.** Eleven large Australian buyers, what each signed, and when each comes up
-again. Procurement teams frequently negotiate without visibility of what comparable organisations
-pay. This is a floor of public fact, available at no cost.
+A renewal decision of this kind generally resolves into one of three paths. The evidence here
+does not tell you which to take — that depends on your estate — but it does say something about
+the constraints on each.
 
-**A realistic view of leverage.** If a negotiating position depends on a credible threat to
-migrate, the local skills market is thinner than the commentary suggests. An alternative that
-cannot be staffed is not a genuine alternative.
+**Renew and optimise.** Stay, and attack the bill through rationalisation: consolidate
+agreements, reclaim unused entitlement, right-size the estate, negotiate term and uplift caps.
+The Defence pattern below is the clearest public example of consolidation changing a commercial
+position, and the contract data gives you comparables to argue from.
+
+**Selective migration.** Move the workloads that move cheaply, keep the ones that don't, and
+reduce dependency over time rather than at once. This is the path the skills data bears on most
+directly: a smaller programme can be staffed from a thin market, where a full transition cannot.
+
+**Full platform transition.** Replace across the estate. The public evidence is least encouraging
+here — not because the alternatives are weak, but because the Australian delivery capacity to
+execute at that scale is hard to see in the recruitment market, and the expiry cluster in 2028
+means many organisations may be competing for the same scarce people at once.
+
+What the data genuinely supports is narrower than a recommendation:
+
+**Comparative pricing.** Eleven large Australian buyers, what each contracted, and when each
+comes up. Procurement teams frequently negotiate without visibility of what comparable
+organisations pay. This is a floor of public fact, free, and reproducible from the dataset below.
+
+**A realistic view of leverage.** If a negotiating position rests on a credible threat to
+migrate, that threat needs people behind it. The local market for alternative-platform skills is
+visibly thinner than for the incumbent. An alternative you cannot staff is a weaker card than it
+looks across a table.
 
 ## What this data cannot establish
 
@@ -207,6 +248,22 @@ be read as one agency negotiating better terms than another.
 
 **Scope is not constant.** Estates grow and requirements change. One earlier Defence contract is
 described as "Computer Equipment". A larger figure may reflect a larger purchase.
+
+**This is a supplier-identified subset, not all Commonwealth VMware procurement.** It captures
+contract notices where VMware is the *named supplier* — two entities, VMware Australia Pty Ltd
+(12 contracts, A$247.0m) and VMware International Unlimited Company (7 contracts, A$238.3m).
+Licences bought through a reseller, or bundled inside a larger systems-integration contract, do
+not appear. The real figure is therefore higher than A$485 million by an unknown margin.
+
+**Some contracts bundle other products from the same vendor group.** The Taxation Office's
+largest is described as "CA Mainframe and VMware software licences"; the Reserve Bank's as
+"Software licensing and support — CA Broadcom". These cannot be read as pure virtualisation
+spending, and whether bundling represents better or worse value than separate licensing is not
+determinable from published values.
+
+**Published contract value is not expenditure.** The Department of Finance is explicit that
+AusTender values are contracted amounts rather than money actually spent, and that they change
+through amendment. Everything here is contracted value.
 
 **Seven of eleven agencies have no earlier contract visible**, including the Australian Taxation
 Office, the second-largest current buyer at A$39.3 million a year. Earlier purchases may have
@@ -220,22 +277,29 @@ sources.
 
 ## Forecast
 
-> Despite changes to VMware's commercial packaging, the majority of Australian Commonwealth
-> VMware contracts expiring in 2027–2028 will be renewed with VMware rather than migrated to an
-> alternative hypervisor. **Confidence: 65%. Resolves: 30 June 2029.**
+A prediction that cannot be settled objectively is not worth making, so here is the resolution
+rule as well as the call.
 
-The leading indicator is Nutanix plus Proxmox as a share of advertised VMware roles, currently
-11%. **Sustained movement above 15% would weaken this forecast.** It is recorded in
+> Of the **19 contracts listed in the dataset below**, more than half by count will be followed,
+> within 12 months of their expiry, by a new AusTender contract notice from the same agency
+> naming VMware or its successor entity as supplier.
+> **Confidence: 65%. Resolves: 30 June 2029**, from AusTender records.
+
+Counting contracts rather than agencies or dollars is deliberate: it is the measure least
+sensitive to one large renewal dominating the result, and it is settleable from the same public
+source anyone can check.
+
+The indicator I will track alongside it is Nutanix plus Proxmox as a share of advertised VMware
+roles in Australia, currently 11%. If that rises durably above 15% I will treat the forecast as
+weakening — though as an indirect measure it would be evidence, not proof. It is recorded in
 [the registry](/registry/) and will be scored there whichever way it resolves.
 
-One matter remains unresolved: A$379 million concentrated in 2028, across a small number of
+One matter remains unresolved. A$379 million concentrated in 2028, across a small number of
 agencies, is either an artefact of contract terms or reflects something more deliberate in how
 these agreements were structured. The data does not distinguish between those explanations.
 
-**For readers who have been through one of these renewals — was migration seriously evaluated, or
-was it not realistically on the table?** That question cannot be answered from public records.
-
----
+**For readers who have been through one of these renewals — was migration seriously evaluated,
+or was it not realistically on the table?** That is the question public records cannot answer.
 
 ## Method
 
@@ -257,27 +321,45 @@ counts are not comparable across markets — only ratios within a market, and th
 indicatively. A single measurement indicates position rather than direction; these figures will
 be re-measured monthly and published as a series.
 
-The supplier entity on these notices is VMware International Unlimited Company. Some contracts
-bundle other products from the same vendor group — the Taxation Office's largest is described as
-"CA Mainframe and VMware software licences", the Reserve Bank's as "Software licensing and
-support — CA Broadcom". Whether bundling represents better or worse value than separate licensing
-cannot be determined from published contract values.
+Supplier matching is on the name recorded in the contract notice, which covers two entities:
+**VMware Australia Pty Ltd** (12 contracts) and **VMware International Unlimited Company** (7).
+One earlier record naming "VMware User Group Inc" — a training membership, not the vendor — was
+excluded.
+
+The API returns a single release per contract notice reflecting its current state; amendment
+history is not exposed. A value shown here may therefore have been revised since the notice was
+first published, and no amendment lineage could be reconstructed.
 
 ### Contract detail
 
-| Agency | Value | Contracts | First expiry |
-| --- | --- | --- | --- |
-| Department of Defence | A$211,218,116 | 5 | 2027-03-09 |
-| Australian Taxation Office | A$111,650,003 | 2 | 2027-06-29 |
-| Services Australia | A$98,456,045 | 3 | 2027-06-22 |
-| Reserve Bank of Australia | A$18,324,640 | 1 | 2028-04-28 |
-| Department of Foreign Affairs and Trade | A$18,142,957 | 1 | 2028-02-12 |
-| Bureau of Meteorology | A$12,193,449 | 1 | 2028-12-21 |
-| Dept of Employment and Workplace Relations | A$11,379,478 | 2 | 2028-05-11 |
-| Geoscience Australia | A$1,378,982 | 1 | 2028-08-17 |
-| AUSTRAC | A$997,955 | 1 | 2028-07-13 |
-| Federal Court of Australia | A$903,870 | 1 | 2028-07-15 |
-| Australian Criminal Intelligence Commission | A$646,309 | 1 | 2028-07-25 |
+Every contract behind this analysis, by notice number, so any figure here can be checked against
+the source record.
+
+| Notice | Agency | Value | Start | Expiry |
+| --- | --- | --- | --- | --- |
+| CN4211096 | Department of Defence | A$178,086,240 | 2025-12-12 | 2028-12-11 |
+| CN4142919 | Australian Taxation Office | A$108,625,000 | 2025-03-22 | 2028-03-21 |
+| CN4071834 | Services Australia | A$93,973,803 | 2024-06-13 | 2027-06-22 |
+| CN4175970 | Department of Defence | A$27,564,423 | 2025-06-30 | 2028-06-29 |
+| CN4154952 | Reserve Bank of Australia | A$18,324,640 | 2025-04-29 | 2028-04-28 |
+| CN4137626 | Department of Foreign Affairs and Trade | A$18,142,957 | 2025-02-13 | 2028-02-12 |
+| CN4215000 | Bureau of Meteorology | A$12,193,449 | 2025-12-22 | 2028-12-21 |
+| CN4150499 | Department of Employment and Workplace Relations | A$9,790,528 | 2025-05-12 | 2028-05-11 |
+| CN4075434 | Services Australia | A$3,960,000 | 2024-06-23 | 2027-06-22 |
+| CN4260252 | Australian Taxation Office | A$3,025,003 | 2026-06-30 | 2027-06-29 |
+| CN4042775 | Department of Defence | A$2,964,192 | 2024-03-10 | 2027-03-09 |
+| CN4150498 | Department of Employment and Workplace Relations | A$1,588,950 | 2025-05-12 | 2028-05-11 |
+| CN4086032 | Department of Defence | A$1,505,556 | 2024-07-30 | 2027-07-29 |
+| CN4180119 | Geoscience Australia | A$1,378,982 | 2025-08-18 | 2028-08-17 |
+| CN4236283 | Department of Defence | A$1,097,704 | 2026-05-10 | 2028-12-11 |
+| CN4175583 | Australian Transaction Reports and Analysis Centre | A$997,955 | 2025-07-29 | 2028-07-13 |
+| CN4181064 | Federal Court of Australia | A$903,870 | 2025-07-16 | 2028-07-15 |
+| CN4172594 | Australian Criminal Intelligence Commission | A$646,309 | 2025-07-26 | 2028-07-25 |
+| CN4224787 | Services Australia | A$522,243 | 2026-01-30 | 2027-06-22 |
+
+Downloadable: [current contracts (CSV)](/assets/data/commonwealth-vmware-contracts-2027-2028.csv)
+· [earlier contracts (CSV)](/assets/data/commonwealth-vmware-predecessors.csv)
+
 
 ---
 
