@@ -4,6 +4,9 @@ title: "Commonwealth VMware contracts: A$485 million expiring across 2027 and 20
 subtitle: "Eleven agencies, when each contract comes up, and what the evidence says about migration"
 date: 2026-10-17
 slug: commonwealth-vmware-contracts
+image: /assets/og/commonwealth-vmware-contracts.png
+image_alt: "Commonwealth VMware contracts: A$485 million expiring in 2027-2028. Eleven agencies, 78% of the value expiring in 2028, 65% forecast they renew with VMware."
+description: "Eleven Commonwealth agencies hold A$485m in VMware contracts expiring across 2027 and 2028. What the public record shows about consolidation, cost and whether migration is a credible alternative."
 ---
 
 Eleven Australian Commonwealth agencies have roughly **A$485 million** in published contracts
@@ -321,27 +324,32 @@ private companies publish nothing comparable, so **none of this can be extrapola
 Every contract behind this analysis, by notice number, so any figure here can be checked against
 the source record.
 
-| Notice | Agency | Value | Start | Expiry |
-| --- | --- | --- | --- | --- |
-| CN4211096 | Department of Defence | A$178,086,240 | 2025-12-12 | 2028-12-11 |
-| CN4142919 | Australian Taxation Office | A$108,625,000 | 2025-03-22 | 2028-03-21 |
-| CN4071834 | Services Australia | A$93,973,803 | 2024-06-13 | 2027-06-22 |
-| CN4175970 | Department of Defence | A$27,564,423 | 2025-06-30 | 2028-06-29 |
-| CN4154952 | Reserve Bank of Australia | A$18,324,640 | 2025-04-29 | 2028-04-28 |
-| CN4137626 | Department of Foreign Affairs and Trade | A$18,142,957 | 2025-02-13 | 2028-02-12 |
-| CN4215000 | Bureau of Meteorology | A$12,193,449 | 2025-12-22 | 2028-12-21 |
-| CN4150499 | Department of Employment and Workplace Relations | A$9,790,528 | 2025-05-12 | 2028-05-11 |
-| CN4075434 | Services Australia | A$3,960,000 | 2024-06-23 | 2027-06-22 |
-| CN4260252 | Australian Taxation Office | A$3,025,003 | 2026-06-30 | 2027-06-29 |
-| CN4042775 | Department of Defence | A$2,964,192 | 2024-03-10 | 2027-03-09 |
-| CN4150498 | Department of Employment and Workplace Relations | A$1,588,950 | 2025-05-12 | 2028-05-11 |
-| CN4086032 | Department of Defence | A$1,505,556 | 2024-07-30 | 2027-07-29 |
-| CN4180119 | Geoscience Australia | A$1,378,982 | 2025-08-18 | 2028-08-17 |
-| CN4236283 | Department of Defence | A$1,097,704 | 2026-05-10 | 2028-12-11 |
-| CN4175583 | Australian Transaction Reports and Analysis Centre | A$997,955 | 2025-07-29 | 2028-07-13 |
-| CN4181064 | Federal Court of Australia | A$903,870 | 2025-07-16 | 2028-07-15 |
-| CN4172594 | Australian Criminal Intelligence Commission | A$646,309 | 2025-07-26 | 2028-07-25 |
-| CN4224787 | Services Australia | A$522,243 | 2026-01-30 | 2027-06-22 |
+<div class="table-scroll">
+<table class="contracts">
+  <thead><tr><th>Notice</th><th>Agency</th><th>Value</th><th>Start</th><th>Expiry</th></tr></thead>
+  <tbody>
+    <tr><td data-l="Notice"><a href="https://www.tenders.gov.au/Cn/Show/CN4211096">CN4211096</a></td><td data-l="Agency">Department of Defence</td><td data-l="Value">A$178,086,240</td><td data-l="Start">2025-12-12</td><td data-l="Expiry">2028-12-11</td></tr>
+    <tr><td data-l="Notice"><a href="https://www.tenders.gov.au/Cn/Show/CN4142919">CN4142919</a></td><td data-l="Agency">Australian Taxation Office</td><td data-l="Value">A$108,625,000</td><td data-l="Start">2025-03-22</td><td data-l="Expiry">2028-03-21</td></tr>
+    <tr><td data-l="Notice"><a href="https://www.tenders.gov.au/Cn/Show/CN4071834">CN4071834</a></td><td data-l="Agency">Services Australia</td><td data-l="Value">A$93,973,803</td><td data-l="Start">2024-06-13</td><td data-l="Expiry">2027-06-22</td></tr>
+    <tr><td data-l="Notice"><a href="https://www.tenders.gov.au/Cn/Show/CN4175970">CN4175970</a></td><td data-l="Agency">Department of Defence</td><td data-l="Value">A$27,564,423</td><td data-l="Start">2025-06-30</td><td data-l="Expiry">2028-06-29</td></tr>
+    <tr><td data-l="Notice"><a href="https://www.tenders.gov.au/Cn/Show/CN4154952">CN4154952</a></td><td data-l="Agency">Reserve Bank of Australia</td><td data-l="Value">A$18,324,640</td><td data-l="Start">2025-04-29</td><td data-l="Expiry">2028-04-28</td></tr>
+    <tr><td data-l="Notice"><a href="https://www.tenders.gov.au/Cn/Show/CN4137626">CN4137626</a></td><td data-l="Agency">Department of Foreign Affairs and Trade</td><td data-l="Value">A$18,142,957</td><td data-l="Start">2025-02-13</td><td data-l="Expiry">2028-02-12</td></tr>
+    <tr><td data-l="Notice"><a href="https://www.tenders.gov.au/Cn/Show/CN4215000">CN4215000</a></td><td data-l="Agency">Bureau of Meteorology</td><td data-l="Value">A$12,193,449</td><td data-l="Start">2025-12-22</td><td data-l="Expiry">2028-12-21</td></tr>
+    <tr><td data-l="Notice"><a href="https://www.tenders.gov.au/Cn/Show/CN4150499">CN4150499</a></td><td data-l="Agency">Department of Employment and Workplace Relations</td><td data-l="Value">A$9,790,528</td><td data-l="Start">2025-05-12</td><td data-l="Expiry">2028-05-11</td></tr>
+    <tr><td data-l="Notice"><a href="https://www.tenders.gov.au/Cn/Show/CN4075434">CN4075434</a></td><td data-l="Agency">Services Australia</td><td data-l="Value">A$3,960,000</td><td data-l="Start">2024-06-23</td><td data-l="Expiry">2027-06-22</td></tr>
+    <tr><td data-l="Notice"><a href="https://www.tenders.gov.au/Cn/Show/CN4260252">CN4260252</a></td><td data-l="Agency">Australian Taxation Office</td><td data-l="Value">A$3,025,003</td><td data-l="Start">2026-06-30</td><td data-l="Expiry">2027-06-29</td></tr>
+    <tr><td data-l="Notice"><a href="https://www.tenders.gov.au/Cn/Show/CN4042775">CN4042775</a></td><td data-l="Agency">Department of Defence</td><td data-l="Value">A$2,964,192</td><td data-l="Start">2024-03-10</td><td data-l="Expiry">2027-03-09</td></tr>
+    <tr><td data-l="Notice"><a href="https://www.tenders.gov.au/Cn/Show/CN4150498">CN4150498</a></td><td data-l="Agency">Department of Employment and Workplace Relations</td><td data-l="Value">A$1,588,950</td><td data-l="Start">2025-05-12</td><td data-l="Expiry">2028-05-11</td></tr>
+    <tr><td data-l="Notice"><a href="https://www.tenders.gov.au/Cn/Show/CN4086032">CN4086032</a></td><td data-l="Agency">Department of Defence</td><td data-l="Value">A$1,505,556</td><td data-l="Start">2024-07-30</td><td data-l="Expiry">2027-07-29</td></tr>
+    <tr><td data-l="Notice"><a href="https://www.tenders.gov.au/Cn/Show/CN4180119">CN4180119</a></td><td data-l="Agency">Geoscience Australia</td><td data-l="Value">A$1,378,982</td><td data-l="Start">2025-08-18</td><td data-l="Expiry">2028-08-17</td></tr>
+    <tr><td data-l="Notice"><a href="https://www.tenders.gov.au/Cn/Show/CN4236283">CN4236283</a></td><td data-l="Agency">Department of Defence</td><td data-l="Value">A$1,097,704</td><td data-l="Start">2026-05-10</td><td data-l="Expiry">2028-12-11</td></tr>
+    <tr><td data-l="Notice"><a href="https://www.tenders.gov.au/Cn/Show/CN4175583">CN4175583</a></td><td data-l="Agency">Australian Transaction Reports and Analysis Centre</td><td data-l="Value">A$997,955</td><td data-l="Start">2025-07-29</td><td data-l="Expiry">2028-07-13</td></tr>
+    <tr><td data-l="Notice"><a href="https://www.tenders.gov.au/Cn/Show/CN4181064">CN4181064</a></td><td data-l="Agency">Federal Court of Australia</td><td data-l="Value">A$903,870</td><td data-l="Start">2025-07-16</td><td data-l="Expiry">2028-07-15</td></tr>
+    <tr><td data-l="Notice"><a href="https://www.tenders.gov.au/Cn/Show/CN4172594">CN4172594</a></td><td data-l="Agency">Australian Criminal Intelligence Commission</td><td data-l="Value">A$646,309</td><td data-l="Start">2025-07-26</td><td data-l="Expiry">2028-07-25</td></tr>
+    <tr><td data-l="Notice"><a href="https://www.tenders.gov.au/Cn/Show/CN4224787">CN4224787</a></td><td data-l="Agency">Services Australia</td><td data-l="Value">A$522,243</td><td data-l="Start">2026-01-30</td><td data-l="Expiry">2027-06-22</td></tr>
+  </tbody>
+</table>
+</div>
 
 <div class="data-links">
   <a href="/assets/data/commonwealth-vmware-contracts-2027-2028.csv">↓ Current contracts (CSV, 19 records)</a>

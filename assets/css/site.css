@@ -151,3 +151,33 @@ td:not(:first-child), th:not(:first-child) { text-align: right; font-variant-num
 }
 .correction b { color: var(--accent-2); text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.78rem; }
 .correction s { opacity: 0.75; }
+
+/* ---- nothing may push the page sideways ---- */
+html, body { max-width: 100%; overflow-x: hidden; }
+.post-content { min-width: 0; }
+.table-scroll { max-width: 100%; -webkit-overflow-scrolling: touch; }
+
+/* ---- contract table: scrolls on desktop, restacks on mobile ---- */
+.contracts a { text-decoration: none; font-variant-numeric: tabular-nums; }
+
+@media (max-width: 700px) {
+  .contracts, .contracts thead, .contracts tbody,
+  .contracts tr, .contracts th, .contracts td { display: block; }
+  .contracts thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .contracts { font-size: 0.9rem; }
+  .contracts tr {
+    padding: 0.85rem 0.95rem; border-bottom: 1px solid var(--line);
+    display: grid; grid-template-columns: auto 1fr; gap: 0.15rem 0.9rem;
+  }
+  .contracts tr:last-child { border-bottom: 0; }
+  .contracts td { padding: 0; border: 0; text-align: left !important; display: contents; }
+  .contracts td::before {
+    content: attr(data-l); color: var(--muted); font-size: 0.72rem;
+    text-transform: uppercase; letter-spacing: 0.05em; align-self: center;
+  }
+  .contracts td[data-l="Agency"] { font-weight: 600; }
+  .contracts td[data-l="Value"] { font-variant-numeric: tabular-nums; }
+  /* the whole row no longer needs to scroll */
+  .table-scroll:has(.contracts) { overflow-x: visible; }
+  .evidence { padding: 0.2rem 0.9rem 1.1rem; }
+}

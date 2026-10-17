@@ -6,6 +6,7 @@ description: >-
 url: https://prathish.com
 baseurl: ""
 permalink: /:year/:month/:slug/
+image: /assets/og/site.png
 show_excerpts: true
 
 exclude:
