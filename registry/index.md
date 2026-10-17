@@ -18,7 +18,7 @@ appear as new rows.
 
 | # | Made | Forecast | Confidence | Leading indicator | Resolves |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [2026-10-17](/2026/10/commonwealth-vmware-contracts/) | Despite Broadcom's repricing, most Australian Commonwealth VMware contracts expiring in 2027–2028 will be renewed with VMware rather than migrated to an alternative hypervisor | 65% | Australian job-posting counts: Nutanix + Proxmox as a share of VMware. 11% at baseline; sustained movement above 15% weakens this call | 2029-06-30 |
+| 1 | [2026-10-17](/2026/10/commonwealth-vmware-contracts/) | Despite Broadcom's repricing, most Australian Commonwealth VMware contracts expiring in 2027–2028 will be renewed with VMware rather than migrated to an alternative hypervisor | 65% | Australian job-posting counts: Nutanix + Proxmox as a share of VMware. 11% at baseline; sustained movement above 15% weakens this call | 2030-02-28 |
 
 ## Resolved
 
