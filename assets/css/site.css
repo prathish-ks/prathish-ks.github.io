@@ -142,3 +142,12 @@ td:not(:first-child), th:not(:first-child) { text-align: right; font-variant-num
   .table-scroll { position: relative; }
   .findings .n { font-size: 1.4rem; }
 }
+
+/* ---- correction notice: must never be mistaken for a live claim ---- */
+.correction {
+  margin: 1.6rem 0; padding: 0.85rem 1.1rem;
+  background: var(--surface-2); border-left: 4px solid var(--accent-2);
+  border-radius: 0 6px 6px 0; font-size: 0.88rem; color: var(--muted);
+}
+.correction b { color: var(--accent-2); text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.78rem; }
+.correction s { opacity: 0.75; }

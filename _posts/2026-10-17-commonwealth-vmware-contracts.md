@@ -38,22 +38,22 @@ first think.
 ## When the renewals land
 
 <figure>
-  <svg viewBox="0 0 640 214" role="img" aria-label="Four-fifths of the value expires in 2028. 2027 H1: A$104m  (5). 2027 H2: A$1.5m  (1). 2028 H1: A$184m  (6). 2028 H2: A$195m  (7).">
+  <svg viewBox="0 0 640 216" role="img" aria-label="Four-fifths of the value expires in 2028. 2027 H1: A$104m  (5). 2027 H2: A$1.5m  (1). 2028 H1: A$184m  (6). 2028 H2: A$195m  (7).">
   <text x="0" y="20" font-size="15.5" font-weight="600" fill="var(--text)">Four-fifths of the value expires in 2028</text>
   <text x="0" y="40" font-size="12" fill="var(--muted)">Commonwealth VMware contract value by expiry half-year</text>
   <text x="178" y="70" font-size="12.5" text-anchor="end" fill="var(--text)">2027 H1</text>
-  <rect x="190" y="58" width="203.1" height="17" rx="4" fill="var(--s1)"/>
-  <text x="402.1" y="71" font-size="12.5" font-weight="600" fill="var(--text)">A$104m  (5)</text>
+  <rect x="190" y="58" width="187.1" height="17" rx="4" fill="var(--s1)"/>
+  <text x="386.1" y="71" font-size="12.5" font-weight="600" fill="var(--text)">A$104m  (5)</text>
   <text x="178" y="104" font-size="12.5" text-anchor="end" fill="var(--text)">2027 H2</text>
-  <rect x="190" y="92" width="2.9" height="17" rx="4" fill="var(--s1)"/>
-  <text x="201.9" y="105" font-size="12.5" font-weight="600" fill="var(--text)">A$1.5m  (1)</text>
+  <rect x="190" y="92" width="2.7" height="17" rx="4" fill="var(--s1)"/>
+  <text x="201.7" y="105" font-size="12.5" font-weight="600" fill="var(--text)">A$1.5m  (1)</text>
   <text x="178" y="138" font-size="12.5" text-anchor="end" fill="var(--text)">2028 H1</text>
-  <rect x="190" y="126" width="358.0" height="17" rx="4" fill="var(--s1)"/>
-  <text x="557.0" y="139" font-size="12.5" font-weight="600" fill="var(--text)">A$184m  (6)</text>
+  <rect x="190" y="126" width="329.7" height="17" rx="4" fill="var(--s1)"/>
+  <text x="528.7" y="139" font-size="12.5" font-weight="600" fill="var(--text)">A$184m  (6)</text>
   <text x="178" y="172" font-size="12.5" text-anchor="end" fill="var(--text)">2028 H2</text>
-  <rect x="190" y="160" width="380.0" height="17" rx="4" fill="var(--s1)"/>
-  <text x="579.0" y="173" font-size="12.5" font-weight="600" fill="var(--text)">A$195m  (7)</text>
-  <text x="0" y="208" font-size="11.5" fill="var(--muted)">Contract count in brackets. Source: AusTender.</text>
+  <rect x="190" y="160" width="350.0" height="17" rx="4" fill="var(--s1)"/>
+  <text x="549.0" y="173" font-size="12.5" font-weight="600" fill="var(--text)">A$195m  (7)</text>
+  <text x="0" y="210" font-size="11.5" fill="var(--muted)">Contract count in brackets. Source: AusTender.</text>
   </svg>
   <figcaption>Source: AusTender contract notices, end dates 2027–2028, value A$500,000 and above.</figcaption>
 </figure>
@@ -71,20 +71,20 @@ value of A$95.9 million. **One contract worth A$178 million began the next day**
 years.
 
 <figure>
-  <svg viewBox="0 0 640 300" role="img" aria-label="Department of Defence VMware contracts compared two ways on the same scale. Comparing one contract to one contract: A$14.07 million rising to A$178.09 million, an apparent increase of about 1,166 percent. Comparing all contracts annualised: A$77.5 million falling to A$70.5 million, a decrease of 9 percent.">
+  <svg viewBox="0 0 640 326" role="img" aria-label="Department of Defence VMware contracts compared two ways on one scale. Contract against contract: A$14.1 million to A$178.1 million, an apparent rise of about 1,166 percent. All contracts annualised: A$77.5 million to A$70.5 million per year, a fall of 9 percent.">
   <text x="0" y="20" font-size="15.5" font-weight="600" fill="var(--text)">The same contracts, compared two ways</text>
-  <text x="0" y="40" font-size="12" fill="var(--muted)">Department of Defence VMware agreements, both panels on one scale</text>
-  <text x="30" y="68" font-size="12.5" font-weight="600" fill="var(--s2)">Contract against contract</text>
-  <rect x="30" y="200.9" width="62" height="11.1" rx="4" fill="var(--s2)"/><text x="61.0" y="192.9" font-size="12.5" font-weight="600" text-anchor="middle" fill="var(--text)">A$14.1m</text><text x="61.0" y="228" font-size="11.5" text-anchor="middle" fill="var(--muted)">largest earlier</text>
-  <rect x="118" y="72.0" width="62" height="140.0" rx="4" fill="var(--s2)"/><text x="149.0" y="64.0" font-size="12.5" font-weight="600" text-anchor="middle" fill="var(--text)">A$178.1m</text><text x="149.0" y="228" font-size="11.5" text-anchor="middle" fill="var(--muted)">the new one</text>
-  <text x="105.0" y="248" font-size="13" font-weight="600" text-anchor="middle" fill="var(--s2)">looks like +1,166%</text>
-  <line x1="330" y1="56" x2="330" y2="222" stroke="var(--line)" stroke-width="1"/>
-  <text x="364" y="68" font-size="12.5" font-weight="600" fill="var(--s1)">All contracts, annualised</text>
-  <rect x="364" y="151.1" width="62" height="60.9" rx="4" fill="var(--s1)"/><text x="395.0" y="143.1" font-size="12.5" font-weight="600" text-anchor="middle" fill="var(--text)">A$77.5m/yr</text><text x="395.0" y="228" font-size="11.5" text-anchor="middle" fill="var(--muted)">47 earlier</text>
-  <rect x="452" y="156.6" width="62" height="55.4" rx="4" fill="var(--s1)"/><text x="483.0" y="148.6" font-size="12.5" font-weight="600" text-anchor="middle" fill="var(--text)">A$70.5m/yr</text><text x="483.0" y="228" font-size="11.5" text-anchor="middle" fill="var(--muted)">5 current</text>
-  <text x="439.0" y="248" font-size="13" font-weight="600" text-anchor="middle" fill="var(--s1)">is actually -9%</text>
-  <line x1="20" y1="212" x2="620" y2="212" stroke="var(--line)" stroke-width="1.5"/>
-  <text x="0" y="292" font-size="11.5" fill="var(--muted)">Same vertical scale in both panels. Published contracted value, not expenditure.</text>
+  <text x="0" y="40" font-size="12" fill="var(--muted)">Department of Defence VMware agreements, both panels on one vertical scale</text>
+  <text x="30" y="64" font-size="12.5" font-weight="600" fill="var(--s2)">Contract against contract</text>
+  <rect x="30" y="235.9" width="62" height="10.1" rx="4" fill="var(--s2)"/><text x="61.0" y="227.9" font-size="12.5" font-weight="600" text-anchor="middle" fill="var(--text)">A$14.1m</text><text x="61.0" y="263" font-size="11.5" text-anchor="middle" fill="var(--muted)">largest earlier</text>
+  <rect x="118" y="118.0" width="62" height="128.0" rx="4" fill="var(--s2)"/><text x="149.0" y="110.0" font-size="12.5" font-weight="600" text-anchor="middle" fill="var(--text)">A$178.1m</text><text x="149.0" y="263" font-size="11.5" text-anchor="middle" fill="var(--muted)">the new one</text>
+  <text x="136" y="286" font-size="13" font-weight="600" text-anchor="middle" fill="var(--s2)">looks like +1,166%</text>
+  <line x1="330" y1="52" x2="330" y2="254" stroke="var(--line)" stroke-width="1"/>
+  <text x="364" y="64" font-size="12.5" font-weight="600" fill="var(--s1)">All contracts, annualised</text>
+  <rect x="364" y="190.3" width="62" height="55.7" rx="4" fill="var(--s1)"/><text x="395.0" y="182.3" font-size="12.5" font-weight="600" text-anchor="middle" fill="var(--text)">A$77.5m/yr</text><text x="395.0" y="263" font-size="11.5" text-anchor="middle" fill="var(--muted)">47 earlier</text>
+  <rect x="452" y="195.3" width="62" height="50.7" rx="4" fill="var(--s1)"/><text x="483.0" y="187.3" font-size="12.5" font-weight="600" text-anchor="middle" fill="var(--text)">A$70.5m/yr</text><text x="483.0" y="263" font-size="11.5" text-anchor="middle" fill="var(--muted)">5 current</text>
+  <text x="470" y="286" font-size="13" font-weight="600" text-anchor="middle" fill="var(--s1)">is actually -9%</text>
+  <line x1="20" y1="246" x2="620" y2="246" stroke="var(--line)" stroke-width="1.5"/>
+  <text x="0" y="318" font-size="11.5" fill="var(--muted)">Same vertical scale in both panels. Published contracted value, not expenditure.</text>
   </svg>
   <figcaption>Earlier contracts from the predecessor dataset; current contracts as listed below. Annualised = contracted value ÷ duration × 365.25.</figcaption>
 </figure>
@@ -100,24 +100,24 @@ agreements, not contract against contract.** The published values invite the wro
 Across the four agencies where earlier contracts are visible, the same normalisation gives this:
 
 <figure>
-  <svg viewBox="0 0 640 224" role="img" aria-label="The largest buyer's contracted value is slightly lower. Dept of Defence: 0.9x. Services Australia: 2.5x. Foreign Affairs &amp; Trade: 2.0x. Combined, these three: 1.2x.">
+  <svg viewBox="0 0 640 226" role="img" aria-label="The largest buyer's contracted value is slightly lower. Dept of Defence: 0.9x. Services Australia: 2.5x. Foreign Affairs & Trade: 2.0x. Combined, these three: 1.2x.">
   <text x="0" y="20" font-size="15.5" font-weight="600" fill="var(--text)">The largest buyer's contracted value is slightly lower</text>
   <text x="0" y="40" font-size="12" fill="var(--muted)">Change in annualised VMware contracted value, earlier contracts to current</text>
-  <line x1="332.3" y1="50" x2="332.3" y2="190" stroke="var(--muted)" stroke-width="1.5" stroke-dasharray="3 3"/>
-  <text x="332.3" y="206" font-size="11.5" text-anchor="middle" fill="var(--muted)">no change (1.0x)</text>
+  <line x1="328.5" y1="50" x2="328.5" y2="190" stroke="var(--muted)" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="328.5" y="206" font-size="11.5" text-anchor="middle" fill="var(--muted)">no change (1.0x)</text>
   <text x="178" y="70" font-size="12.5" text-anchor="end" fill="var(--text)">Dept of Defence</text>
-  <rect x="318.1" y="58" width="14.2" height="17" rx="4" fill="var(--s2)"/>
-  <text x="309.1" y="71" font-size="12.5" font-weight="600" text-anchor="end" fill="var(--text)">0.9x</text>
+  <rect x="314.6" y="58" width="13.8" height="17" rx="4" fill="var(--s2)"/>
+  <text x="305.6" y="71" font-size="12.5" font-weight="600" text-anchor="end" fill="var(--text)">0.9x</text>
   <text x="178" y="104" font-size="12.5" text-anchor="end" fill="var(--text)">Services Australia</text>
-  <rect x="332.3" y="92" width="213.5" height="17" rx="4" fill="var(--s1)"/>
-  <text x="554.8" y="105" font-size="12.5" font-weight="600" text-anchor="start" fill="var(--text)">2.5x</text>
-  <text x="178" y="138" font-size="12.5" text-anchor="end" fill="var(--text)">Foreign Affairs &amp; Trade</text>
-  <rect x="332.3" y="126" width="142.3" height="17" rx="4" fill="var(--s1)"/>
-  <text x="483.6" y="139" font-size="12.5" font-weight="600" text-anchor="start" fill="var(--text)">2.0x</text>
+  <rect x="328.5" y="92" width="207.7" height="17" rx="4" fill="var(--s1)"/>
+  <text x="545.2" y="105" font-size="12.5" font-weight="600" text-anchor="start" fill="var(--text)">2.5x</text>
+  <text x="178" y="138" font-size="12.5" text-anchor="end" fill="var(--text)">Foreign Affairs & Trade</text>
+  <rect x="328.5" y="126" width="138.5" height="17" rx="4" fill="var(--s1)"/>
+  <text x="475.9" y="139" font-size="12.5" font-weight="600" text-anchor="start" fill="var(--text)">2.0x</text>
   <text x="178" y="172" font-size="12.5" text-anchor="end" fill="var(--text)">Combined, these three</text>
-  <rect x="332.3" y="160" width="28.5" height="17" rx="4" fill="var(--s1)"/>
-  <text x="369.8" y="173" font-size="12.5" font-weight="600" text-anchor="start" fill="var(--text)">1.2x</text>
-  <text x="0" y="218" font-size="11.5" fill="var(--muted)">Employment &amp; Workplace Relations excluded: earlier base of A$229k is too small to carry meaning.</text>
+  <rect x="328.5" y="160" width="27.7" height="17" rx="4" fill="var(--s1)"/>
+  <text x="365.2" y="173" font-size="12.5" font-weight="600" text-anchor="start" fill="var(--text)">1.2x</text>
+  <text x="0" y="220" font-size="11.5" fill="var(--muted)">Employment & Workplace Relations excluded: an earlier base of A$229k is too small to carry meaning.</text>
   </svg>
   <figcaption>Annualised = contract value ÷ duration × 365.25, summed across every contract an agency held in each period.</figcaption>
 </figure>
@@ -135,22 +135,22 @@ elsewhere. Renewal in those circumstances is frequently the rational decision.
 It is partly testable, because migrations need people before they need contracts.
 
 <figure>
-  <svg viewBox="0 0 640 214" role="img" aria-label="Microsoft is the larger alternative in Australia. VMware: 239. Hyper-V: 117. Nutanix: 14. Proxmox: 12.">
+  <svg viewBox="0 0 640 216" role="img" aria-label="Microsoft is the larger alternative in Australia. VMware: 239. Hyper-V: 117. Nutanix: 14. Proxmox: 12.">
   <text x="0" y="20" font-size="15.5" font-weight="600" fill="var(--text)">Microsoft is the larger alternative in Australia</text>
   <text x="0" y="40" font-size="12" fill="var(--muted)">Advertised roles naming each platform, Australia, October 2026</text>
   <text x="178" y="70" font-size="12.5" text-anchor="end" fill="var(--text)">VMware</text>
-  <rect x="190" y="58" width="380.0" height="17" rx="4" fill="var(--s1)"/>
-  <text x="579.0" y="71" font-size="12.5" font-weight="600" fill="var(--text)">239</text>
+  <rect x="190" y="58" width="350.0" height="17" rx="4" fill="var(--s1)"/>
+  <text x="549.0" y="71" font-size="12.5" font-weight="600" fill="var(--text)">239</text>
   <text x="178" y="104" font-size="12.5" text-anchor="end" fill="var(--text)">Hyper-V</text>
-  <rect x="190" y="92" width="186.0" height="17" rx="4" fill="var(--s1)"/>
-  <text x="385.0" y="105" font-size="12.5" font-weight="600" fill="var(--text)">117</text>
+  <rect x="190" y="92" width="171.3" height="17" rx="4" fill="var(--s1)"/>
+  <text x="370.3" y="105" font-size="12.5" font-weight="600" fill="var(--text)">117</text>
   <text x="178" y="138" font-size="12.5" text-anchor="end" fill="var(--text)">Nutanix</text>
-  <rect x="190" y="126" width="22.3" height="17" rx="4" fill="var(--s1)"/>
-  <text x="221.3" y="139" font-size="12.5" font-weight="600" fill="var(--text)">14</text>
+  <rect x="190" y="126" width="20.5" height="17" rx="4" fill="var(--s1)"/>
+  <text x="219.5" y="139" font-size="12.5" font-weight="600" fill="var(--text)">14</text>
   <text x="178" y="172" font-size="12.5" text-anchor="end" fill="var(--text)">Proxmox</text>
-  <rect x="190" y="160" width="19.1" height="17" rx="4" fill="var(--s1)"/>
-  <text x="218.1" y="173" font-size="12.5" font-weight="600" fill="var(--text)">12</text>
-  <text x="0" y="208" font-size="11.5" fill="var(--muted)">Exact-phrase search, Seek, Australia-wide.</text>
+  <rect x="190" y="160" width="17.6" height="17" rx="4" fill="var(--s1)"/>
+  <text x="216.6" y="173" font-size="12.5" font-weight="600" fill="var(--text)">12</text>
+  <text x="0" y="210" font-size="11.5" fill="var(--muted)">Exact-phrase search, Seek, Australia-wide.</text>
   </svg>
   <figcaption>Exact-phrase searches on Seek, Australia-wide, 14 October 2026.</figcaption>
 </figure>
@@ -165,19 +165,19 @@ Measured against two other markets, Australia's alternative-platform share is th
 three:
 
 <figure>
-  <svg viewBox="0 0 640 180" role="img" aria-label="Australia lags both comparison markets. Australia  (Seek): 10.9%. United Kingdom  (Reed): 18.9%. United States  (Dice): 17.3%.">
+  <svg viewBox="0 0 640 182" role="img" aria-label="Australia lags both comparison markets. Australia  (Seek): 10.9%. United Kingdom  (Reed): 18.9%. United States  (Dice): 17.3%.">
   <text x="0" y="20" font-size="15.5" font-weight="600" fill="var(--text)">Australia lags both comparison markets</text>
   <text x="0" y="40" font-size="12" fill="var(--muted)">Nutanix + Proxmox roles as a share of VMware roles</text>
   <text x="178" y="70" font-size="12.5" text-anchor="end" fill="var(--text)">Australia  (Seek)</text>
-  <rect x="190" y="58" width="188.3" height="17" rx="4" fill="var(--s2)"/>
-  <text x="387.3" y="71" font-size="12.5" font-weight="600" fill="var(--text)">10.9%</text>
+  <rect x="190" y="58" width="173.4" height="17" rx="4" fill="var(--s2)"/>
+  <text x="372.4" y="71" font-size="12.5" font-weight="600" fill="var(--text)">10.9%</text>
   <text x="178" y="104" font-size="12.5" text-anchor="end" fill="var(--text)">United Kingdom  (Reed)</text>
-  <rect x="190" y="92" width="326.5" height="17" rx="4" fill="var(--s1)"/>
-  <text x="525.5" y="105" font-size="12.5" font-weight="600" fill="var(--text)">18.9%</text>
+  <rect x="190" y="92" width="300.7" height="17" rx="4" fill="var(--s1)"/>
+  <text x="499.7" y="105" font-size="12.5" font-weight="600" fill="var(--text)">18.9%</text>
   <text x="178" y="138" font-size="12.5" text-anchor="end" fill="var(--text)">United States  (Dice)</text>
-  <rect x="190" y="126" width="298.8" height="17" rx="4" fill="var(--s1)"/>
-  <text x="497.8" y="139" font-size="12.5" font-weight="600" fill="var(--text)">17.3%</text>
-  <text x="0" y="174" font-size="11.5" fill="var(--muted)">Ratios within a market only; boards differ in coverage, so absolute counts are not comparable.</text>
+  <rect x="190" y="126" width="275.2" height="17" rx="4" fill="var(--s1)"/>
+  <text x="474.2" y="139" font-size="12.5" font-weight="600" fill="var(--text)">17.3%</text>
+  <text x="0" y="176" font-size="11.5" fill="var(--muted)">Ratios within a market only; boards differ in coverage, so counts are not comparable.</text>
   </svg>
   <figcaption>Australia 10.9%, United Kingdom 18.9%, United States 17.3%. Underlying counts in the method note.</figcaption>
 </figure>
@@ -208,7 +208,7 @@ thin market where a full transition cannot.
 
 **Full platform transition.** Replace across the estate. The public evidence is least encouraging
 here, not because the alternatives are weak but because the delivery capacity to execute at scale
-is hard to see in the Australian recruitment market, and the 2028 cluster means many
+is hard to see in the sampled recruitment data, and the 2028 cluster means many
 organisations may be competing for the same scarce people at once.
 
 What the evidence genuinely supports is narrower than a recommendation. You now know what eleven
@@ -230,8 +230,14 @@ rule alongside the call.
 The resolution date is set by arithmetic rather than preference. The last contract in the set
 expires on 21 December 2028; a twelve-month observation window runs to 21 December 2029; and
 agencies have 42 days to publish a contract notice. Anything earlier would leave seven of the
-nineteen contracts unresolvable. *(An earlier version of this post said 30 June 2029, which was
-wrong for exactly that reason.)*
+nineteen contracts unresolvable.
+
+<div class="correction">
+  <b>Correction · 17 October 2026</b><br>
+  This post first gave the resolution date as <s>30 June 2029</s>. That was wrong: seven of the
+  nineteen contracts could not have been settled by then. The live forecast resolves
+  <strong>28 February 2030</strong>.
+</div>
 
 Counting contracts rather than agencies or dollars is deliberate: it is least sensitive to one
 large renewal dominating the result.
