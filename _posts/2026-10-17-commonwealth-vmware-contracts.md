@@ -19,33 +19,26 @@ are approaching a renewal of your own.
 
 ## When the contracts expire
 
-<svg viewBox="0 0 680 300" role="img" aria-label="Commonwealth VMware contract value by expiry half-year. 2027 H1: A$104 million across 5 contracts. 2027 H2: A$1.5 million, 1 contract. 2028 H1: A$184 million, 6 contracts. 2028 H2: A$195 million, 7 contracts." style="max-width:100%;height:auto">
-  <text x="0" y="18" font-size="15" font-weight="600" fill="currentColor">Four-fifths of the value expires in 2028</text>
-  <text x="0" y="38" font-size="12" fill="currentColor" opacity="0.6">Commonwealth VMware contract value by expiry half-year</text>
-  <g fill="currentColor" opacity="0.2">
-    <rect x="60" y="208" width="120" height="54" rx="2"/>
-    <rect x="210" y="260" width="120" height="2" rx="1"/>
-    <rect x="360" y="167" width="120" height="95" rx="2"/>
-    <rect x="510" y="161" width="120" height="101" rx="2"/>
-  </g>
-  <g font-size="13" font-weight="600" fill="currentColor" text-anchor="middle">
-    <text x="120" y="200">A$104m</text>
-    <text x="270" y="252">A$1.5m</text>
-    <text x="420" y="159">A$184m</text>
-    <text x="570" y="153">A$195m</text>
-  </g>
-  <g font-size="12" fill="currentColor" opacity="0.6" text-anchor="middle">
-    <text x="120" y="281">2027 H1</text>
-    <text x="270" y="281">2027 H2</text>
-    <text x="420" y="281">2028 H1</text>
-    <text x="570" y="281">2028 H2</text>
-    <text x="120" y="296">5 contracts</text>
-    <text x="270" y="296">1 contract</text>
-    <text x="420" y="296">6 contracts</text>
-    <text x="570" y="296">7 contracts</text>
-  </g>
-  <line x1="40" y1="262" x2="650" y2="262" stroke="currentColor" stroke-opacity="0.25"/>
-</svg>
+<figure>
+  <svg viewBox="0 0 640 214" role="img" aria-label="Four-fifths of the value expires in 2028. 2027 H1: A$104m  (5). 2027 H2: A$1.5m  (1). 2028 H1: A$184m  (6). 2028 H2: A$195m  (7).">
+  <text x="0" y="20" font-size="15.5" font-weight="600" fill="var(--text)">Four-fifths of the value expires in 2028</text>
+  <text x="0" y="40" font-size="12" fill="var(--muted)">Commonwealth VMware contract value by expiry half-year</text>
+  <text x="178" y="70" font-size="12.5" text-anchor="end" fill="var(--text)">2027 H1</text>
+  <rect x="190" y="58" width="203.1" height="17" rx="4" fill="var(--s1)"/>
+  <text x="402.1" y="71" font-size="12.5" font-weight="600" fill="var(--text)">A$104m  (5)</text>
+  <text x="178" y="104" font-size="12.5" text-anchor="end" fill="var(--text)">2027 H2</text>
+  <rect x="190" y="92" width="2.9" height="17" rx="4" fill="var(--s1)"/>
+  <text x="201.9" y="105" font-size="12.5" font-weight="600" fill="var(--text)">A$1.5m  (1)</text>
+  <text x="178" y="138" font-size="12.5" text-anchor="end" fill="var(--text)">2028 H1</text>
+  <rect x="190" y="126" width="358.0" height="17" rx="4" fill="var(--s1)"/>
+  <text x="557.0" y="139" font-size="12.5" font-weight="600" fill="var(--text)">A$184m  (6)</text>
+  <text x="178" y="172" font-size="12.5" text-anchor="end" fill="var(--text)">2028 H2</text>
+  <rect x="190" y="160" width="380.0" height="17" rx="4" fill="var(--s1)"/>
+  <text x="579.0" y="173" font-size="12.5" font-weight="600" fill="var(--text)">A$195m  (7)</text>
+  <text x="0" y="208" font-size="11.5" fill="var(--muted)">Contract count in brackets. Source: AusTender.</text>
+  </svg>
+  <figcaption>Source: AusTender contract notices, end dates 2027–2028, value A$500,000 and above.</figcaption>
+</figure>
 
 Nearly four-fifths of the value sits in 2028. For a vendor, that is when this market moves. For
 a buyer, it means a substantial number of organisations will reach the same decision at roughly
@@ -57,13 +50,28 @@ Comparing individual contracts across periods produces misleading results, becau
 of these agreements has changed. The meaningful comparison is **total annualised spend per
 agency** — every contract an agency held, normalised by duration.
 
-| Agency | Earlier (A$/yr) | Current (A$/yr) | Change |
-| --- | --- | --- | --- |
-| Department of Defence | 77,531,795 | 70,513,296 | **0.9×** |
-| Services Australia | 12,957,820 | 32,788,120 | 2.5× |
-| Foreign Affairs and Trade | 3,089,896 | 6,057,326 | 2.0× |
-| Employment and Workplace Relations | 229,015 | 3,795,757 | 16.6× |
-| **Combined** | **93.8m** | **113.2m** | **1.2×** |
+<figure>
+  <svg viewBox="0 0 640 224" role="img" aria-label="The largest buyer is paying slightly less. Dept of Defence: 0.9x. Services Australia: 2.5x. Foreign Affairs &amp; Trade: 2.0x. Combined, these three: 1.2x.">
+  <text x="0" y="20" font-size="15.5" font-weight="600" fill="var(--text)">The largest buyer is paying slightly less</text>
+  <text x="0" y="40" font-size="12" fill="var(--muted)">Change in annualised VMware spend, earlier contracts to current</text>
+  <line x1="332.3" y1="50" x2="332.3" y2="190" stroke="var(--muted)" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="332.3" y="206" font-size="11.5" text-anchor="middle" fill="var(--muted)">no change (1.0x)</text>
+  <text x="178" y="70" font-size="12.5" text-anchor="end" fill="var(--text)">Dept of Defence</text>
+  <rect x="318.1" y="58" width="14.2" height="17" rx="4" fill="var(--s2)"/>
+  <text x="309.1" y="71" font-size="12.5" font-weight="600" text-anchor="end" fill="var(--text)">0.9x</text>
+  <text x="178" y="104" font-size="12.5" text-anchor="end" fill="var(--text)">Services Australia</text>
+  <rect x="332.3" y="92" width="213.5" height="17" rx="4" fill="var(--s1)"/>
+  <text x="554.8" y="105" font-size="12.5" font-weight="600" text-anchor="start" fill="var(--text)">2.5x</text>
+  <text x="178" y="138" font-size="12.5" text-anchor="end" fill="var(--text)">Foreign Affairs &amp; Trade</text>
+  <rect x="332.3" y="126" width="142.3" height="17" rx="4" fill="var(--s1)"/>
+  <text x="483.6" y="139" font-size="12.5" font-weight="600" text-anchor="start" fill="var(--text)">2.0x</text>
+  <text x="178" y="172" font-size="12.5" text-anchor="end" fill="var(--text)">Combined, these three</text>
+  <rect x="332.3" y="160" width="28.5" height="17" rx="4" fill="var(--s1)"/>
+  <text x="369.8" y="173" font-size="12.5" font-weight="600" text-anchor="start" fill="var(--text)">1.2x</text>
+  <text x="0" y="218" font-size="11.5" fill="var(--muted)">Employment &amp; Workplace Relations excluded: earlier base of A$229k is too small to carry meaning.</text>
+  </svg>
+  <figcaption>Annualised = contract value ÷ duration × 365.25, summed across every contract an agency held in each period.</figcaption>
+</figure>
 
 Two cautions on reading this. The Employment and Workplace Relations ratio rests on an earlier
 base of A$229,000 across two contracts — too small to carry weight. And only four of the eleven
@@ -100,12 +108,26 @@ committed elsewhere. Renewing in those circumstances is frequently the rational 
 It is, however, testable — because migrations require people well before they require contracts.
 Advertised roles in Australia, exact-phrase, as at 14 October 2026:
 
-| Term | Jobs advertised |
-| --- | --- |
-| VMware | 239 |
-| Hyper-V | 117 |
-| Nutanix | 14 |
-| Proxmox | 12 |
+<figure>
+  <svg viewBox="0 0 640 214" role="img" aria-label="Microsoft is the larger alternative in Australia. VMware: 239. Hyper-V: 117. Nutanix: 14. Proxmox: 12.">
+  <text x="0" y="20" font-size="15.5" font-weight="600" fill="var(--text)">Microsoft is the larger alternative in Australia</text>
+  <text x="0" y="40" font-size="12" fill="var(--muted)">Advertised roles naming each platform, Australia, October 2026</text>
+  <text x="178" y="70" font-size="12.5" text-anchor="end" fill="var(--text)">VMware</text>
+  <rect x="190" y="58" width="380.0" height="17" rx="4" fill="var(--s1)"/>
+  <text x="579.0" y="71" font-size="12.5" font-weight="600" fill="var(--text)">239</text>
+  <text x="178" y="104" font-size="12.5" text-anchor="end" fill="var(--text)">Hyper-V</text>
+  <rect x="190" y="92" width="186.0" height="17" rx="4" fill="var(--s1)"/>
+  <text x="385.0" y="105" font-size="12.5" font-weight="600" fill="var(--text)">117</text>
+  <text x="178" y="138" font-size="12.5" text-anchor="end" fill="var(--text)">Nutanix</text>
+  <rect x="190" y="126" width="22.3" height="17" rx="4" fill="var(--s1)"/>
+  <text x="221.3" y="139" font-size="12.5" font-weight="600" fill="var(--text)">14</text>
+  <text x="178" y="172" font-size="12.5" text-anchor="end" fill="var(--text)">Proxmox</text>
+  <rect x="190" y="160" width="19.1" height="17" rx="4" fill="var(--s1)"/>
+  <text x="218.1" y="173" font-size="12.5" font-weight="600" fill="var(--text)">12</text>
+  <text x="0" y="208" font-size="11.5" fill="var(--muted)">Exact-phrase search, Seek, Australia-wide.</text>
+  </svg>
+  <figcaption>Exact-phrase searches on Seek, Australia-wide, 14 October 2026.</figcaption>
+</figure>
 
 VMware exceeds Nutanix by seventeen to one. No migration-programme hiring was found in Australia.
 The VMware roles being advertised are predominantly administrators for VMware Cloud Foundation —
@@ -113,8 +135,7 @@ positions that support continued operation rather than exit.
 
 ## Microsoft is the larger alternative, by a factor of eight
 
-The most practically significant figure above is Hyper-V at 117 roles, against 14 for Nutanix and
-12 for Proxmox. Most migration commentary treats Nutanix as the default destination. The
+The most practically significant figure above is Hyper-V at 117 roles, against 14 for Nutanix and 12 for Proxmox. Most migration commentary treats Nutanix as the default destination. The
 Australian skills market does not reflect that.
 
 This matters more than platform comparison for anyone planning an exit. A migration needs people
@@ -131,11 +152,23 @@ this data addresses.
 The hiring ratio only means something against a benchmark, so I measured the same terms in two
 other markets.
 
-| Market | VMware | Hyper-V | Nutanix | Proxmox | Nutanix + Proxmox as % of VMware |
-| --- | --- | --- | --- | --- | --- |
-| Australia (Seek) | 239 | 117 | 14 | 12 | **10.9%** |
-| United Kingdom (Reed) | 212 | 158 | 16 | 24 | **18.9%** |
-| United States (Dice) | 2,412 | 554 | 322 | 96 | **17.3%** |
+<figure>
+  <svg viewBox="0 0 640 180" role="img" aria-label="Australia lags both comparison markets. Australia  (Seek): 10.9%. United Kingdom  (Reed): 18.9%. United States  (Dice): 17.3%.">
+  <text x="0" y="20" font-size="15.5" font-weight="600" fill="var(--text)">Australia lags both comparison markets</text>
+  <text x="0" y="40" font-size="12" fill="var(--muted)">Nutanix + Proxmox roles as a share of VMware roles</text>
+  <text x="178" y="70" font-size="12.5" text-anchor="end" fill="var(--text)">Australia  (Seek)</text>
+  <rect x="190" y="58" width="188.3" height="17" rx="4" fill="var(--s2)"/>
+  <text x="387.3" y="71" font-size="12.5" font-weight="600" fill="var(--text)">10.9%</text>
+  <text x="178" y="104" font-size="12.5" text-anchor="end" fill="var(--text)">United Kingdom  (Reed)</text>
+  <rect x="190" y="92" width="326.5" height="17" rx="4" fill="var(--s1)"/>
+  <text x="525.5" y="105" font-size="12.5" font-weight="600" fill="var(--text)">18.9%</text>
+  <text x="178" y="138" font-size="12.5" text-anchor="end" fill="var(--text)">United States  (Dice)</text>
+  <rect x="190" y="126" width="298.8" height="17" rx="4" fill="var(--s1)"/>
+  <text x="497.8" y="139" font-size="12.5" font-weight="600" fill="var(--text)">17.3%</text>
+  <text x="0" y="174" font-size="11.5" fill="var(--muted)">Ratios within a market only; boards differ in coverage, so absolute counts are not comparable.</text>
+  </svg>
+  <figcaption>Australia 10.9%, United Kingdom 18.9%, United States 17.3%. Underlying counts in the method note.</figcaption>
+</figure>
 
 Australia's alternative-platform share is roughly **40% below** the UK and US figures, which sit
 close to each other at 17–19%.
@@ -145,7 +178,7 @@ twenty-three times Australia's Nutanix count against ten times the VMware base �
 not simply a function of market size. Australia appears to be genuinely further behind on
 alternative-platform skills than either comparison market.
 
-**One measure in that table does not survive scrutiny, and it is worth saying so.** Hyper-V as a
+**One cross-market measure does not survive scrutiny, and it is worth saying so.** Hyper-V as a
 share of VMware ranges from 23% in the US to 49% in Australia to 75% in the UK. That spread is
 too wide to reflect real differences in adoption; it more likely reflects what each board covers —
 Dice is a specialist technology board, Reed is a general one. Absolute counts are not comparable
@@ -217,8 +250,9 @@ are treated as predecessors.
 Annualised figures are contract value ÷ duration × 365.25, summed per agency. Where terms
 overlap, this slightly overstates spend in any single month.
 
-Job counts: exact-phrase searches, 14–17 October 2026. Australia via Seek, United Kingdom via
-Reed, United States via Dice. Each board has different coverage and employer mix, so absolute
+Job counts: exact-phrase searches, 14–17 October 2026. Australia via Seek (VMware 239, Hyper-V
+117, Nutanix 14, Proxmox 12), United Kingdom via Reed (212 / 158 / 16 / 24), United States via
+Dice (2,412 / 554 / 322 / 96). Each board has different coverage and employer mix, so absolute
 counts are not comparable across markets — only ratios within a market, and those only
 indicatively. A single measurement indicates position rather than direction; these figures will
 be re-measured monthly and published as a series.
