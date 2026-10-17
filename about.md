@@ -2,6 +2,8 @@
 layout: page
 title: About
 permalink: /about/
+image: /assets/og/site.png
+image_alt: "About Prathish Kumar Srinivasan — research method and disclosure"
 ---
 
 I research enterprise software economics: procurement data, vendor pricing, renewal cycles and

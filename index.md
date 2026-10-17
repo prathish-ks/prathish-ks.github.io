@@ -1,5 +1,7 @@
 ---
 layout: home
+image: /assets/og/site.png
+image_alt: "Prathish Kumar Srinivasan — independent research on enterprise software economics"
 ---
 
 Independent research on enterprise software economics.

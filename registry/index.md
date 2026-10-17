@@ -2,6 +2,8 @@
 layout: page
 title: Forecast registry
 permalink: /registry/
+image: /assets/og/site.png
+image_alt: "Forecast registry — dated, falsifiable forecasts, scored either way"
 ---
 
 Dated, falsifiable forecasts about enterprise software markets. Each carries a confidence level,
