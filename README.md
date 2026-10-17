@@ -1,4 +1,4 @@
-# prathish-ks.github.io
+# prathish.com
 
 Independent research on enterprise software economics — what organisations actually pay, what
 they actually buy, and whether the forecasts hold up.

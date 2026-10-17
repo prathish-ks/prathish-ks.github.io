@@ -1,16 +1,12 @@
 title: Prathish Kumar Srinivasan
+tagline: Independent research on enterprise software economics
+description: >-
+  What organisations actually pay for enterprise software, what they actually
+  buy, and whether the forecasts hold up.
 url: https://prathish.com
 baseurl: ""
-description: >-
-  Independent research on enterprise software economics — what organisations
-  actually pay, what they actually buy, and whether the forecasts hold up.
-theme: minima
-show_excerpts: true
 permalink: /:year/:month/:slug/
-
-header_pages:
-  - registry/index.md
-  - about.md
+show_excerpts: true
 
 exclude:
   - README.md

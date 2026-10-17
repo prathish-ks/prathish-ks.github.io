@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="post-content">{{ content }}</div>
+{%- if site.posts.size > 0 %}
+<h2>Research</h2>
+<ul class="post-list">
+  {%- for post in site.posts %}
+  <li>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %B %Y" }}</time>
+    {%- if post.subtitle %}<p>{{ post.subtitle }}</p>{% endif -%}
+  </li>
+  {%- endfor %}
+</ul>
+{%- endif %}
