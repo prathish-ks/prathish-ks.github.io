@@ -11,6 +11,9 @@ show_excerpts: true
 exclude:
   - README.md
 
+# no theme: layouts and styles are local to this repo
+theme: null
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
