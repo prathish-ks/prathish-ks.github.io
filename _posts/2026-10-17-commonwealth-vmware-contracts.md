@@ -20,7 +20,22 @@ market shows far more demand for VMware skills than for any alternative — whic
 about how practical a migration threat is as a negotiating position, though less than you might
 first think.
 
-## When the contracts expire
+<div class="research-meta">
+  <span>Published <b>17 October 2026</b></span>
+  <span>Data as at <b>17 October 2026</b></span>
+  <span>Source <b>AusTender</b></span>
+  <span><b>6 min</b> read · evidence below</span>
+</div>
+
+<div class="findings">
+  <div><span class="n">A$485m</span><span class="l">published contracted value</span></div>
+  <div><span class="n">11</span><span class="l">Commonwealth agencies</span></div>
+  <div><span class="n">78%</span><span class="l">of it expiring in 2028</span></div>
+  <div><span class="n">65%</span><span class="l">forecast they renew with VMware</span></div>
+  <div class="q"><b>The question:</b> when renewal arrives, how credible is the alternative of migrating away?</div>
+</div>
+
+## When the renewals land
 
 <figure>
   <svg viewBox="0 0 640 214" role="img" aria-label="Four-fifths of the value expires in 2028. 2027 H1: A$104m  (5). 2027 H2: A$1.5m  (1). 2028 H1: A$184m  (6). 2028 H2: A$195m  (7).">
@@ -43,15 +58,46 @@ first think.
   <figcaption>Source: AusTender contract notices, end dates 2027–2028, value A$500,000 and above.</figcaption>
 </figure>
 
-Nearly four-fifths of the value sits in 2028. For a vendor, that is when this market moves. For
-a buyer, it means a substantial number of organisations will reach the same decision at roughly
-the same time — which affects how much attention any one of them can expect to command.
+Nearly four-fifths of the value sits in 2028. For a buyer that means a lot of organisations
+reaching the same decision in the same window — which affects how much attention any one of them
+can expect to command, and how much competition there is for whoever would do the work.
 
-## What has happened to annualised contracted value
+## What the money actually says
 
-Comparing individual contracts across periods produces misleading results, because the structure
-of these agreements has changed. The meaningful comparison is **total annualised contracted value per
-agency** — every contract an agency held, normalised by duration.
+The obvious way to read these contracts is the wrong way, and Defence shows why.
+
+**Twenty-seven Defence VMware contracts ended on 11 December 2025**, with a combined published
+value of A$95.9 million. **One contract worth A$178 million began the next day**, running three
+years.
+
+<figure>
+  <svg viewBox="0 0 640 300" role="img" aria-label="Department of Defence VMware contracts compared two ways on the same scale. Comparing one contract to one contract: A$14.07 million rising to A$178.09 million, an apparent increase of about 1,166 percent. Comparing all contracts annualised: A$77.5 million falling to A$70.5 million, a decrease of 9 percent.">
+  <text x="0" y="20" font-size="15.5" font-weight="600" fill="var(--text)">The same contracts, compared two ways</text>
+  <text x="0" y="40" font-size="12" fill="var(--muted)">Department of Defence VMware agreements, both panels on one scale</text>
+  <text x="30" y="68" font-size="12.5" font-weight="600" fill="var(--s2)">Contract against contract</text>
+  <rect x="30" y="200.9" width="62" height="11.1" rx="4" fill="var(--s2)"/><text x="61.0" y="192.9" font-size="12.5" font-weight="600" text-anchor="middle" fill="var(--text)">A$14.1m</text><text x="61.0" y="228" font-size="11.5" text-anchor="middle" fill="var(--muted)">largest earlier</text>
+  <rect x="118" y="72.0" width="62" height="140.0" rx="4" fill="var(--s2)"/><text x="149.0" y="64.0" font-size="12.5" font-weight="600" text-anchor="middle" fill="var(--text)">A$178.1m</text><text x="149.0" y="228" font-size="11.5" text-anchor="middle" fill="var(--muted)">the new one</text>
+  <text x="105.0" y="248" font-size="13" font-weight="600" text-anchor="middle" fill="var(--s2)">looks like +1,166%</text>
+  <line x1="330" y1="56" x2="330" y2="222" stroke="var(--line)" stroke-width="1"/>
+  <text x="364" y="68" font-size="12.5" font-weight="600" fill="var(--s1)">All contracts, annualised</text>
+  <rect x="364" y="151.1" width="62" height="60.9" rx="4" fill="var(--s1)"/><text x="395.0" y="143.1" font-size="12.5" font-weight="600" text-anchor="middle" fill="var(--text)">A$77.5m/yr</text><text x="395.0" y="228" font-size="11.5" text-anchor="middle" fill="var(--muted)">47 earlier</text>
+  <rect x="452" y="156.6" width="62" height="55.4" rx="4" fill="var(--s1)"/><text x="483.0" y="148.6" font-size="12.5" font-weight="600" text-anchor="middle" fill="var(--text)">A$70.5m/yr</text><text x="483.0" y="228" font-size="11.5" text-anchor="middle" fill="var(--muted)">5 current</text>
+  <text x="439.0" y="248" font-size="13" font-weight="600" text-anchor="middle" fill="var(--s1)">is actually -9%</text>
+  <line x1="20" y1="212" x2="620" y2="212" stroke="var(--line)" stroke-width="1.5"/>
+  <text x="0" y="292" font-size="11.5" fill="var(--muted)">Same vertical scale in both panels. Published contracted value, not expenditure.</text>
+  </svg>
+  <figcaption>Earlier contracts from the predecessor dataset; current contracts as listed below. Annualised = contracted value ÷ duration × 365.25.</figcaption>
+</figure>
+
+Set against Defence's largest earlier contract, the new agreement looks like a twelvefold
+increase. Set against all 47 contracts it replaced, annualised contracted value is slightly
+lower. The consolidation is the story; the headline number is an artefact of how procurement was
+structured.
+
+**If you are benchmarking your own position, compare total annualised contracted value across all
+agreements, not contract against contract.** The published values invite the wrong comparison.
+
+Across the four agencies where earlier contracts are visible, the same normalisation gives this:
 
 <figure>
   <svg viewBox="0 0 640 224" role="img" aria-label="The largest buyer's contracted value is slightly lower. Dept of Defence: 0.9x. Services Australia: 2.5x. Foreign Affairs &amp; Trade: 2.0x. Combined, these three: 1.2x.">
@@ -76,43 +122,17 @@ agency** — every contract an agency held, normalised by duration.
   <figcaption>Annualised = contract value ÷ duration × 365.25, summed across every contract an agency held in each period.</figcaption>
 </figure>
 
-**This is a four-agency matched cohort, not a Commonwealth-wide figure.** Only four of the eleven
-agencies have earlier VMware contracts visible in the data — they account for 70% of current
-value, but the remaining seven are simply absent from the comparison. The Employment and
-Workplace Relations ratio also rests on an earlier base of A$229,000 across two contracts, too
-small to carry weight.
+**That is a four-agency matched cohort, not a Commonwealth-wide figure.** Those four hold 70% of
+current value, but the other seven are simply absent from the comparison — so this says nothing
+about Commonwealth VMware cost inflation generally, and I would not use it that way.
 
-Within that cohort, annualised contracted value rose about 20%, and the largest buyer sits
-slightly below where it was. **It does not support a conclusion about Commonwealth VMware cost
-inflation generally**, and I would not use it that way.
+## Is leaving a credible alternative?
 
-## Why single-contract comparisons mislead
+Renewing under high switching costs is not evidence of satisfaction. Migrating a production
+estate is difficult, carries real risk, and competes for people who are already committed
+elsewhere. Renewal in those circumstances is frequently the rational decision.
 
-Defence illustrates the problem, and the mechanism is worth understanding because anyone
-benchmarking a renewal will encounter it.
-
-**Twenty-seven Defence VMware contracts ended on 11 December 2025**, with a combined published
-value of A$95.9 million. **One contract worth A$178 million began on 12 December 2025**, running
-three years.
-
-Set against Defence's largest earlier contract — A$14.07 million — the new agreement looks like a
-twelvefold increase. Set against all 47 of the contracts it replaced, annualised contracted value was slightly
-lower.
-
-The consolidation is the story, not the headline number. Whether it reflects Broadcom's packaging,
-Defence's own procurement strategy, or both, is not determinable from published data.
-
-**If you are benchmarking your own position, compare total annualised contracted value across all
-agreements, not contract against contract.** The published values invite the wrong comparison.
-
-## The migration question
-
-Renewal under high switching costs is not evidence of satisfaction. Migrating a production
-virtualisation estate is difficult, carries real risk, and competes for people who are already
-committed elsewhere. Renewing in those circumstances is frequently the rational decision.
-
-It is, however, testable — because migrations require people well before they require contracts.
-Advertised roles in Australia, exact-phrase, as at 14 October 2026:
+It is partly testable, because migrations need people before they need contracts.
 
 <figure>
   <svg viewBox="0 0 640 214" role="img" aria-label="Microsoft is the larger alternative in Australia. VMware: 239. Hyper-V: 117. Nutanix: 14. Proxmox: 12.">
@@ -135,38 +155,14 @@ Advertised roles in Australia, exact-phrase, as at 14 October 2026:
   <figcaption>Exact-phrase searches on Seek, Australia-wide, 14 October 2026.</figcaption>
 </figure>
 
-VMware exceeds Nutanix by seventeen to one, and the VMware roles being advertised are
-predominantly administrators for VMware Cloud Foundation — positions that support continued
-operation rather than an exit.
+Two things stand out. VMware exceeds Nutanix seventeen to one. And **Microsoft, not Nutanix, is
+the larger alternative in these advertisements** — Hyper-V appears roughly eight times as often
+as Nutanix, which runs against most migration commentary I had read. The VMware roles being
+advertised are predominantly VMware Cloud Foundation administrators: positions supporting
+continued operation rather than an exit.
 
-**That is weaker evidence than it first appears, and worth being careful with.** I found no
-advertisements naming a migration programme, but recruitment is an indirect signal. A migration
-may be delivered by a systems integrator, an existing partner, an offshore team or redeployed
-internal staff, none of which produce a public advertisement. Vacancies are also often written
-as "infrastructure modernisation" without naming a destination platform.
-
-So the honest reading is narrower than "nobody is migrating": Australian advertisements show
-substantially more demand for VMware skills than for the alternatives, which is consistent with
-continued VMware dependence. It does not establish whether migration programmes are under way.
-
-## Microsoft is the larger alternative, by a factor of eight
-
-The most practically significant figure above is Hyper-V at 117 roles, against 14 for Nutanix and 12 for Proxmox. Most migration commentary treats Nutanix as the default destination. The
-Australian skills market does not reflect that.
-
-This matters more than platform comparison for anyone planning an exit. A migration needs people
-who have done one before, and in this market those people are considerably more likely to have
-Hyper-V experience. Twenty-six advertised roles across Nutanix and Proxmox combined is a narrow
-base from which to staff a multi-year programme.
-
-That is an observation about skills availability, not a recommendation. Which platform suits a
-given estate depends on workloads, existing licensing position and cloud strategy — none of which
-this data addresses.
-
-## Is Australia behind?
-
-The hiring ratio only means something against a benchmark, so I measured the same terms in two
-other markets.
+Measured against two other markets, Australia's alternative-platform share is the lowest of the
+three:
 
 <figure>
   <svg viewBox="0 0 640 180" role="img" aria-label="Australia lags both comparison markets. Australia  (Seek): 10.9%. United Kingdom  (Reed): 18.9%. United States  (Dice): 17.3%.">
@@ -186,120 +182,73 @@ other markets.
   <figcaption>Australia 10.9%, United Kingdom 18.9%, United States 17.3%. Underlying counts in the method note.</figcaption>
 </figure>
 
-Australia's alternative-platform share is roughly **40% below** the UK and US figures, which sit
-close to each other at 17–19%.
+**This is weaker evidence than it looks, and worth handling carefully.** Recruitment is an
+indirect signal. A migration may be delivered by a systems integrator, an existing partner, an
+offshore team or redeployed internal staff, none of which produce an advertisement — and
+vacancies are often written as "infrastructure modernisation" without naming a destination. The
+three markets also use three different job boards with different employer populations, so a
+similar ratio does not establish a similar market.
 
-Two observations worth drawing out. Proxmox outnumbers Nutanix in the UK, and the US has
-twenty-three times Australia's Nutanix count against ten times the VMware base — so the gap is
-not simply a function of market size.
+The defensible reading is narrower than "nobody is migrating": Australian advertisements show
+substantially more demand for VMware skills than for the alternatives, which is consistent with
+continued dependence. Whether migration programmes are under way, this cannot say.
 
-**But these are three different job boards with different employer populations**, and a similar
-ratio does not establish a similar market. Seek dominates Australian general recruitment; Dice is
-a United States technology specialist; Reed is a British generalist. The comparison is suggestive
-of a thinner Australian alternative-platform market. It is not a measurement of one.
+## Three ways the decision goes
 
-**One cross-market measure does not survive scrutiny, and it is worth saying so.** Hyper-V as a
-share of VMware ranges from 23% in the US to 49% in Australia to 75% in the UK. That spread is
-too wide to reflect real differences in adoption; it more likely reflects what each board covers —
-Dice is a specialist technology board, Reed is a general one. Absolute counts are not comparable
-across markets. The Nutanix-plus-Proxmox ratio is more defensible because it sits within the same
-band in both comparison markets, but it should still be read as indicative rather than precise.
-
-For a buyer, the practical reading is this: if the migration skills market in the UK and US is
-thin, Australia's is thinner. An exit plan that assumes you can hire locally is making a stronger
-assumption here than the same plan would make elsewhere.
-
-## Three ways this decision usually goes
-
-A renewal decision of this kind generally resolves into one of three paths. The evidence here
-does not tell you which to take — that depends on your estate — but it does say something about
-the constraints on each.
+A renewal of this kind usually resolves one of three ways. The evidence does not tell you which
+to choose — that depends on your estate — but it does bear on the constraints.
 
 **Renew and optimise.** Stay, and attack the bill through rationalisation: consolidate
-agreements, reclaim unused entitlement, right-size the estate, negotiate term and uplift caps.
-The Defence pattern below is the clearest public example of consolidation changing a commercial
-position, and the contract data gives you comparables to argue from.
+agreements, reclaim unused entitlement, right-size, negotiate term and uplift caps. Defence is
+the clearest public example of consolidation changing a commercial position.
 
-**Selective migration.** Move the workloads that move cheaply, keep the ones that don't, and
-reduce dependency over time rather than at once. This is the path the skills data bears on most
-directly: a smaller programme can be staffed from a thin market, where a full transition cannot.
+**Selective migration.** Move what moves cheaply, keep what doesn't, reduce dependency over time.
+This is where the skills picture bears most directly — a smaller programme can be staffed from a
+thin market where a full transition cannot.
 
 **Full platform transition.** Replace across the estate. The public evidence is least encouraging
-here — not because the alternatives are weak, but because the Australian delivery capacity to
-execute at that scale is hard to see in the recruitment market, and the expiry cluster in 2028
-means many organisations may be competing for the same scarce people at once.
+here, not because the alternatives are weak but because the delivery capacity to execute at scale
+is hard to see in the Australian recruitment market, and the 2028 cluster means many
+organisations may be competing for the same scarce people at once.
 
-What the data genuinely supports is narrower than a recommendation:
-
-**Comparative pricing.** Eleven large Australian buyers, what each contracted, and when each
-comes up. Procurement teams frequently negotiate without visibility of what comparable
-organisations pay. This is a floor of public fact, free, and reproducible from the dataset below.
-
-**A realistic view of leverage.** If a negotiating position rests on a credible threat to
-migrate, that threat needs people behind it. The local market for alternative-platform skills is
-visibly thinner than for the incumbent. An alternative you cannot staff is a weaker card than it
-looks across a table.
-
-## What this data cannot establish
-
-**It is not a price comparison.** Published contract values do not disclose cores, sockets,
-virtual machines or licence counts. No unit rate can be derived, and the table above should not
-be read as one agency negotiating better terms than another.
-
-**Scope is not constant.** Estates grow and requirements change. One earlier Defence contract is
-described as "Computer Equipment". A larger figure may reflect a larger purchase.
-
-**This is a supplier-identified subset, not all Commonwealth VMware procurement.** It captures
-contract notices where VMware is the *named supplier* — two entities, VMware Australia Pty Ltd
-(12 contracts, A$247.0m) and VMware International Unlimited Company (7 contracts, A$238.3m).
-Licences bought through a reseller, or bundled inside a larger systems-integration contract, do
-not appear. The real figure is therefore higher than A$485 million by an unknown margin.
-
-**Some contracts bundle other products from the same vendor group.** The Taxation Office's
-largest is described as "CA Mainframe and VMware software licences"; the Reserve Bank's as
-"Software licensing and support — CA Broadcom". These cannot be read as pure virtualisation
-spending, and whether bundling represents better or worse value than separate licensing is not
-determinable from published values.
-
-**Published contract value is not expenditure.** The Department of Finance is explicit that
-AusTender values are contracted amounts rather than money actually spent, and that they change
-through amendment. Everything here is contracted value.
-
-**Seven of eleven agencies have no earlier contract visible**, including the Australian Taxation
-Office, the second-largest current buyer at A$39.3 million a year. Earlier purchases may have
-been made through a reseller, or fall outside the search window used. This is a gap in the data
-rather than a finding about those agencies.
-
-**This is public-sector data only.** Commonwealth agencies must publish contracts above A$10,000.
-Private companies publish nothing comparable, so **none of this can be extrapolated to them.**
-Whether private Australian organisations are behaving similarly is not determinable from public
-sources.
+What the evidence genuinely supports is narrower than a recommendation. You now know what eleven
+large Australian buyers contracted and when each comes up — a floor of public fact to negotiate
+from, reproducible from the dataset below. And if your leverage rests on a credible threat to
+migrate, that threat needs people behind it. An alternative you cannot staff is a weaker card
+than it looks across a table.
 
 ## Forecast
 
 A prediction that cannot be settled objectively is not worth making, so here is the resolution
-rule as well as the call.
+rule alongside the call.
 
-> Of the **19 contracts listed in the dataset below**, more than half by count will be followed,
-> within 12 months of their expiry, by a new AusTender contract notice from the same agency
-> naming VMware or its successor entity as supplier.
-> **Confidence: 65%. Resolves: 30 June 2029**, from AusTender records.
+> Of the **19 contracts listed below**, more than half by count will be followed, within 12
+> months of their expiry, by a new AusTender contract notice from the same agency naming VMware
+> or its successor entity as supplier.
+> **Confidence: 65%. Resolves: 28 February 2030**, from AusTender records.
 
-Counting contracts rather than agencies or dollars is deliberate: it is the measure least
-sensitive to one large renewal dominating the result, and it is settleable from the same public
-source anyone can check.
+The resolution date is set by arithmetic rather than preference. The last contract in the set
+expires on 21 December 2028; a twelve-month observation window runs to 21 December 2029; and
+agencies have 42 days to publish a contract notice. Anything earlier would leave seven of the
+nineteen contracts unresolvable. *(An earlier version of this post said 30 June 2029, which was
+wrong for exactly that reason.)*
 
-The indicator I will track alongside it is Nutanix plus Proxmox as a share of advertised VMware
-roles in Australia, currently 11%. If that rises durably above 15% I will treat the forecast as
-weakening — though as an indirect measure it would be evidence, not proof. It is recorded in
-[the registry](/registry/) and will be scored there whichever way it resolves.
+Counting contracts rather than agencies or dollars is deliberate: it is least sensitive to one
+large renewal dominating the result.
 
-One matter remains unresolved. A$379 million concentrated in 2028, across a small number of
-agencies, is either an artefact of contract terms or reflects something more deliberate in how
-these agreements were structured. The data does not distinguish between those explanations.
+Alongside it I will track Nutanix plus Proxmox as a share of advertised VMware roles in
+Australia, currently 11%. A durable rise above 15% would weaken the forecast — as evidence, not
+proof, since it is an indirect measure.
 
-**For readers who have been through one of these renewals — was migration seriously evaluated,
-or was it not realistically on the table?** That is the question public records cannot answer.
+One thing remains unexplained. A$379 million concentrated in 2028 across a small number of
+agencies is either an artefact of contract terms or something more deliberate in how these
+agreements were structured. The data does not distinguish between them.
+
+**If you have been through a major platform renewal — how often was migration a genuine
+commercial alternative, and how often was renewal effectively the only practical choice?** That
+is the question public records cannot answer.
+
+<div class="evidence" markdown="1">
 
 ## Method
 
@@ -312,7 +261,7 @@ which the 77 ending before 2026 (A$232 million, 10 buyers, 18 December 2023 to 1
 are treated as predecessors.
 
 Annualised figures are contract value ÷ duration × 365.25, summed per agency. Where terms
-overlap, this slightly overstates spend in any single month.
+overlap, this slightly overstates contracted value in any single month.
 
 Job counts: exact-phrase searches, 14–17 October 2026. Australia via Seek (VMware 239, Hyper-V
 117, Nutanix 14, Proxmox 12), United Kingdom via Reed (212 / 158 / 16 / 24), United States via
@@ -329,6 +278,37 @@ excluded.
 The API returns a single release per contract notice reflecting its current state; amendment
 history is not exposed. A value shown here may therefore have been revised since the notice was
 first published, and no amendment lineage could be reconstructed.
+
+### What this evidence cannot establish
+
+**Published contract value is not expenditure.** The Department of Finance is explicit that
+AusTender values are contracted amounts rather than money spent, and that they change through
+amendment. Every figure here is contracted value.
+
+**It is not a price comparison.** Published values do not disclose cores, sockets, virtual
+machines or licence counts. No unit rate is derivable, and nothing here should be read as one
+agency negotiating better terms than another.
+
+**This is a supplier-identified subset, not all Commonwealth VMware procurement.** It captures
+notices where VMware is the *named supplier*. Licences bought through a reseller, or bundled
+inside a larger systems-integration contract, do not appear — so the true total is higher than
+A$485 million by an unknown margin.
+
+**Some contracts bundle other products from the same vendor group.** The Taxation Office's
+largest is described as "CA Mainframe and VMware software licences", the Reserve Bank's as
+"Software licensing and support — CA Broadcom". These cannot be read as pure virtualisation
+spending, and whether bundling is better or worse value than separate licensing is not
+determinable from published figures.
+
+**Scope is not constant.** Estates grow and requirements change. One earlier Defence contract is
+described as "Computer Equipment". A larger figure may reflect a larger purchase.
+
+**Seven of eleven agencies have no earlier contract visible**, including the Taxation Office, the
+second-largest current buyer. Earlier purchases may have been made through a reseller, or fall
+outside the search window used. That is a gap in the data, not a finding about those agencies.
+
+**This is public-sector data only.** Commonwealth agencies must publish contracts above A$10,000;
+private companies publish nothing comparable, so **none of this can be extrapolated to them.**
 
 ### Contract detail
 
@@ -357,8 +337,12 @@ the source record.
 | CN4172594 | Australian Criminal Intelligence Commission | A$646,309 | 2025-07-26 | 2028-07-25 |
 | CN4224787 | Services Australia | A$522,243 | 2026-01-30 | 2027-06-22 |
 
-Downloadable: [current contracts (CSV)](/assets/data/commonwealth-vmware-contracts-2027-2028.csv)
-· [earlier contracts (CSV)](/assets/data/commonwealth-vmware-predecessors.csv)
+<div class="data-links">
+  <a href="/assets/data/commonwealth-vmware-contracts-2027-2028.csv">↓ Current contracts (CSV, 19 records)</a>
+  <a href="/assets/data/commonwealth-vmware-predecessors.csv">↓ Earlier contracts (CSV, 76 records)</a>
+</div>
+
+</div>
 
 
 ---
