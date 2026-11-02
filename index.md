@@ -1,24 +1,22 @@
 ---
 layout: home
 image: /assets/og/site.png
-image_alt: "Prathish Kumar Srinivasan — independent research on enterprise technology, from the primary sources"
+image_alt: "Prathish Kumar Srinivasan — engineering, investigations, and forecasts I score afterwards"
 ---
 
-Independent research on enterprise technology, built from the primary sources.
+Hi, I'm Prathish.
 
-Most of what gets said about enterprise technology comes from summaries of summaries. I go to the
-documents themselves — published contract notices, regulatory texts, vendor documentation — do the
-arithmetic, and write up what they actually say. AI tools help me read far more of them than I
-could alone; the verification and the conclusions are mine. Sometimes that confirms the consensus.
-The interesting pieces are the ones where it doesn't.
+I'm an engineering leader in Melbourne, nineteen years into a career in banking technology. I
+started on production support and incident recovery, moved through technical analysis and release
+leadership, owned a mobile banking platform, and now lead engineering leaders across several
+squads.
 
-Two strands, same method:
+I still write code. Lately that is Go, Linux container internals, and the security of AI agents —
+which is where my open-source work sits. I also like going through public records to find out what
+is actually happening behind an industry headline, which is usually not what the headline says.
 
-- **What organisations pay.** Procurement records, renewal cycles, vendor pricing, and the gap
-  between the headline number and the annualised one.
-- **What regulators require.** Operational resilience and third-party risk obligations — what the
-  text actually obliges an organisation to produce, and what evidence technology can and cannot
-  supply toward meeting it.
+So some of what I write here is technical, some is an investigation, and some is just an argument
+I want to make properly.
 
 Every forecast I make is [published with a date, a confidence level and a falsification
 trigger](/registry/) — and scored afterwards, including the ones I get wrong.
