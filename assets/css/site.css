@@ -83,12 +83,15 @@ figure { margin: 2.4rem 0; padding: 1.4rem 1.3rem 1rem; background: var(--surfac
 .chart-mobile { display: none; }
 .cm-title { font-size: 1.02rem; font-weight: 600; margin: 0 0 0.15rem; line-height: 1.3; }
 .cm-sub { font-size: 0.84rem; color: var(--muted); margin: 0 0 1rem; }
-.cm-row { display: flex; justify-content: space-between; align-items: baseline;
-  gap: 0.8rem; font-size: 0.95rem; margin: 0.9rem 0 0.25rem; }
-.cm-name { font-weight: 600; }
-.cm-val { color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
-.cm-bar { height: 10px; background: var(--surface-2); border-radius: 5px; overflow: hidden; }
-.cm-bar i { display: block; height: 100%; background: var(--s1); border-radius: 5px; }
+.cm-cols { display: flex; align-items: flex-end; gap: 0.6rem; margin: 0.4rem 0 0; }
+.cm-col { flex: 1 1 0; display: flex; flex-direction: column; align-items: center;
+  justify-content: flex-end; min-width: 0; }
+.cm-col i { display: block; width: 100%; max-width: 72px; background: var(--s1);
+  border-radius: 5px 5px 0 0; }
+.cm-val { font-size: 0.84rem; font-weight: 600; font-variant-numeric: tabular-nums;
+  margin: 0 0 0.3rem; text-align: center; line-height: 1.25; }
+.cm-name { font-size: 0.86rem; color: var(--muted); margin: 0.45rem 0 0; text-align: center;
+  overflow-wrap: anywhere; }
 .cm-note { font-size: 0.82rem; color: var(--muted); margin: 1rem 0 0; }
 figure svg { display: block; width: 100%; height: auto; }
 /* Below the site's existing breakpoint the SVG is replaced rather than shrunk.
