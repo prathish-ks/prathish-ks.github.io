@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Learn the migration, not the platform"
-subtitle: "A$485 million of Commonwealth VMware contracts expire across 2027 and 2028. Four alternatives all end the cost. What separates them is whether anyone can be found to do the work."
+subtitle: "A$485 million of Commonwealth VMware contracts expire across 2027 and 2028. Choosing a destination is the easy part — and that is what decides which skills are worth learning."
 date: 2026-11-02
 slug: learn-the-migration
 image: /assets/og/learn-the-migration.png
-image_alt: "Learn the migration, not the platform. A$485m of Commonwealth VMware contracts expiring 2027-2028, four alternatives ending the licence cost, three bringing the tools to move."
-description: "Nineteen Commonwealth VMware contracts worth A$485m expire across 2027 and 2028. The destination platforms are commoditised; the capacity to move is not. What that means for infrastructure skills."
+image_alt: "Learn the migration, not the platform. A$485m of Commonwealth VMware contracts expiring 2027-2028 across 19 contracts and 11 agencies; four alternatives all ending the licence cost. The finding: the platform is not the hard part, the people are."
+description: "Nineteen Commonwealth VMware contracts worth A$485m expire across 2027 and 2028. The alternatives differ in cost and tooling, but the scarce thing is the capacity to move a large estate safely. What contract records, vendor documentation and Australian job advertisements show."
 ---
 
 If your work touches virtualisation and you are weighing what to learn next, most of the advice
@@ -54,10 +54,10 @@ October 2026](https://www.itnews.com.au/news/defence-mandates-move-off-vmware-62
 formality of the mandate is unclear and that Defence declined to comment on its scope. Cost is
 understood not to be the only driver; sovereignty is also a concern.
 
-The decision to leave came first; the renewal came after. As runway rather than reversal that
-makes sense — you keep paying for what you are still running while you move off it — but it also
-says something about pace. A department that decided to leave in 2025 signed for three more
-years.
+If the reported mandate reflects Defence's direction, the intention to reduce VMware use came
+before the renewal rather than after it. Read that way the contract is runway rather than
+reversal — you keep paying for what you are still running while you move off it — and it says
+something about pace: a department that had decided to move signed for three more years.
 
 ## The platform is not the hard part
 
@@ -82,8 +82,8 @@ it:
 > it's been quite a challenge. [It's been about] the training, the experience and making people
 > understand why we're going through this change — [that] it's not change for change's sake."
 
-That is the constraint, from the organisation furthest into one of these programmes in
-Australia. Not the licence, not the tooling. The same report notes why: the software is embedded
+That is the constraint as described from inside the largest of these contracts. Not the licence,
+not the tooling. The same report notes why: the software is embedded
 in IT operations, and for many administrators it is an ecosystem they know better than any
 alternative.
 
@@ -128,9 +128,9 @@ from their never being.
 
 ## So, what would I learn
 
-Each alternative can be learned hands-on in weeks, so a certificate in one is worth less than it
-looks. What is scarce is the ability to move a large estate safely — a different skill, and a
-slower one to acquire.
+You can get hands-on with each alternative in weeks, so a certificate in one is worth less than
+it looks — though being trusted with production takes considerably longer. What is scarce is the
+ability to move a large estate safely: a different skill, and a slower one to acquire.
 
 **Learn migration engineering rather than a platform badge.** The work listed above — sequencing,
 dependencies, switchover and the way back — is what every one of these programmes needs,
@@ -144,7 +144,7 @@ reading your CV know it.
 the figures above, Hyper-V is advertised about seven times as often as Nutanix, so for most
 readers it will be the one within reach.
 
-**Spend nothing yet.** Hyper-V comes with Windows, Proxmox is free, Nutanix has a free edition.
+**Spend nothing yet.** Hyper-V ships in Windows Pro and Windows Server, Proxmox is free, Nutanix has a free edition.
 Build something small on hardware you own and move a real system onto it — then move one that
 does not go cleanly. A certificate is worth something after you can do the thing.
 
@@ -184,15 +184,15 @@ twelve-month window for hiring to become visible runs to 29 July 2028.
 
 Below even odds deliberately: I think this work is more likely to be delivered by teams Australia
 does not advertise for. It is also a narrow instrument — one job board's advertised counts, not
-migration activity — and if that board changes how it searches before 2028 I will say so and
-resolve on what it then reports rather than quietly restating the question.
+migration activity. If that board materially changes its search coverage, query handling or how
+it counts results before 2028, I will document the change and may record the forecast as
+inconclusive rather than settle it on a measurement that is no longer comparable.
 
 ## One thing I cannot answer
 
 If the alternatives all end the licence cost, and the capacity to move is the scarce thing, then
 the rational move for a large buyer is to secure that capacity rather than to choose a platform.
-I can find no public evidence of anyone doing that — no panel for it, no framework, no advertised
-programme. Either buyers do not see it that way, or they are doing it through channels that leave
+In the records I searched I did not find it — no panel, no framework, no advertised programme. Either buyers do not see it that way, or they are doing it through channels that leave
 no public record. I would like to know which.
 
 *[Sources, scope and the full tables](/2026/11/learn-the-migration/method/) are set out

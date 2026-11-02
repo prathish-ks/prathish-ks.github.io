@@ -49,12 +49,12 @@ been trialled, benchmarked or reference-checked.
     <tr><td data-l="Platform">Microsoft Hyper-V</td><td data-l="Licence">Included in Windows Server licensing</td><td data-l="Tools"><a href="https://learn.microsoft.com/en-us/system-center/vmm/vm-convert-vmware?view=sc-vmm-2025">System Center VMM conversion</a> (requires System Center licensing), and the free <a href="https://learn.microsoft.com/en-us/windows-server/manage/windows-admin-center/use/vm-conversion-extension-overview">Windows Admin Center VM Conversion extension</a>, in public preview and limited to ten machines per batch</td></tr>
   </tbody>
 </table>
+</div>
 
 <p>All four ship first-party conversion tooling. They differ in maturity, in batch size, and in
 whether the tool itself carries a licence cost. Capability is read from each vendor's published
 documentation; nothing here has been trialled or benchmarked. The Microsoft standalone converter
 (MVMC) reached end of support in 2017 and is not a current option.</p>
-</div>
 
 **Job counts.** Exact-phrase searches on Seek, Australia-wide. Measured 2 November 2026: VMware
 239, Hyper-V 102, Nutanix 14, Proxmox 9. The same four searches on 14 October 2026 returned 239,
