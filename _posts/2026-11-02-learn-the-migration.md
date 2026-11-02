@@ -5,7 +5,7 @@ subtitle: "A$485 million of Commonwealth VMware contracts expire across 2027 and
 date: 2026-11-02
 slug: learn-the-migration
 image: /assets/og/learn-the-migration.png
-image_alt: "Learn the migration, not the platform. A$485m of Commonwealth VMware contracts expiring 2027-2028 across 19 contracts and 11 agencies; four alternatives all ending the licence cost. The finding: the platform is not the hard part, the people are."
+image_alt: "Learn the migration, not the platform. A$485m of Commonwealth VMware contracts expiring across 19 contracts and 11 agencies, with 2028 the year most of the value expires, and four ways out all ending the licence cost. Choosing one takes weeks; moving the estate is the job."
 description: "Nineteen Commonwealth VMware contracts worth A$485m expire across 2027 and 2028. The alternatives differ in cost and tooling, but the scarce thing is the capacity to move a large estate safely. What contract records, vendor documentation and Australian job advertisements show."
 ---
 
