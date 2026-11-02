@@ -174,8 +174,9 @@ and Proxmox. Taken together, the three alternatives account for 125 advertised r
 VMware's 239 — a bit over half, which sounds like a market that has already arrived. But Hyper-V
 is most of that, and Windows shops were running Hyper-V long before Broadcom repriced anything, so
 its count says more about the installed Microsoft estate than about anyone leaving VMware. Nutanix
-and Proxmox start from almost nothing, which makes movement in those two a cleaner signal even
-though it is a narrower one.
+and Proxmox start from much smaller numbers, so their relative growth is a more focused signal —
+though still an indirect one, since those counts also carry ordinary operational hiring for
+installations that already exist.
 
 ## So, what would I learn
 
