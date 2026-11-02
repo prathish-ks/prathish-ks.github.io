@@ -72,6 +72,17 @@ code { font-size: 0.88em; background: var(--surface-2); padding: 0.14em 0.4em; b
 
 /* figures */
 figure { margin: 2.4rem 0; padding: 1.4rem 1.3rem 1rem; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; }
+/* Charts must not shrink into illegibility.
+   The SVGs use a 640-unit viewBox and scale with the column. At a 320px
+   viewport that put the smallest label at 4.4px against 19.2px body text —
+   present, labelled, and unreadable. Below 560px the figure scrolls instead,
+   which keeps every label at 10px or more. Scrolling a chart is a worse
+   experience than reading one and a far better one than squinting at it;
+   each chart also carries its full data in an aria-label for anyone who
+   cannot or would rather not. */
+figure:has(svg) { overflow-x: auto; }
+figure svg { min-width: 560px; }
+@media (min-width: 620px) { figure svg { min-width: 0; } }
 figure svg { display: block; width: 100%; height: auto; }
 figcaption { font-size: 0.82rem; color: var(--muted); margin-top: 0.9rem; padding-top: 0.8rem; border-top: 1px solid var(--line); }
 
