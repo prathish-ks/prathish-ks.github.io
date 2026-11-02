@@ -5,7 +5,7 @@ subtitle: "A$485 million of Commonwealth VMware contracts expire across 2027 and
 date: 2026-11-02
 slug: learn-the-migration
 image: /assets/og/learn-the-migration.png
-image_alt: "Learn the migration, not the platform. A$485m of Commonwealth VMware contracts expiring 2027-2028 across 19 contracts and 11 agencies; four alternatives all ending the licence cost. The finding: the platform is not the hard part, the people are."
+image_alt: "Learn the migration, not the platform. A$485m of Commonwealth VMware contracts expiring across 19 contracts and 11 agencies, with 2028 the year most of the value expires, and four ways out all ending the licence cost. Choosing one takes weeks; moving the estate is the job."
 description: "Nineteen Commonwealth VMware contracts worth A$485m expire across 2027 and 2028. The alternatives differ in cost and tooling, but the scarce thing is the capacity to move a large estate safely. What contract records, vendor documentation and Australian job advertisements show."
 ---
 
@@ -45,10 +45,18 @@ thousands of systems on it. Leaving means moving every one of them.*
   <div class="chart-mobile">
     <p class="cm-title">Most of the value expires in 2028</p>
     <p class="cm-sub">Published value of Commonwealth VMware contracts, by year of expiry</p>
-    <div class="cm-row"><span class="cm-name">2027</span><span class="cm-val">A$106.0m · 6</span></div>
-    <div class="cm-bar"><i style="width:27.9%"></i></div>
-    <div class="cm-row"><span class="cm-name">2028</span><span class="cm-val">A$379.3m · 13</span></div>
-    <div class="cm-bar"><i style="width:100.0%"></i></div>
+    <div class="cm-cols">
+      <div class="cm-col">
+        <span class="cm-val">A$106.0m</span>
+        <i style="height:42px"></i>
+        <span class="cm-name">2027</span>
+      </div>
+      <div class="cm-col">
+        <span class="cm-val">A$379.3m</span>
+        <i style="height:150px"></i>
+        <span class="cm-name">2028</span>
+      </div>
+    </div>
     <p class="cm-note">19 contracts, 11 agencies. Contract end dates, not a schedule of work.</p>
   </div>
   <figcaption>Published contract value and count by year of expiry. AusTender notices, read 2 November 2026.</figcaption>
@@ -126,14 +134,28 @@ None of that is bought in a licence. It is bought in people.
   <div class="chart-mobile">
     <p class="cm-title">The alternatives are barely advertised yet</p>
     <p class="cm-sub">Advertised Australian roles naming each platform, 2 November 2026</p>
-    <div class="cm-row"><span class="cm-name">VMware</span><span class="cm-val">239</span></div>
-    <div class="cm-bar"><i style="width:100.0%"></i></div>
-    <div class="cm-row"><span class="cm-name">Hyper-V</span><span class="cm-val">102</span></div>
-    <div class="cm-bar"><i style="width:42.7%"></i></div>
-    <div class="cm-row"><span class="cm-name">Nutanix</span><span class="cm-val">14</span></div>
-    <div class="cm-bar"><i style="width:5.9%"></i></div>
-    <div class="cm-row"><span class="cm-name">Proxmox</span><span class="cm-val">9</span></div>
-    <div class="cm-bar"><i style="width:3.8%"></i></div>
+    <div class="cm-cols">
+      <div class="cm-col">
+        <span class="cm-val">239</span>
+        <i style="height:150px"></i>
+        <span class="cm-name">VMware</span>
+      </div>
+      <div class="cm-col">
+        <span class="cm-val">102</span>
+        <i style="height:64px"></i>
+        <span class="cm-name">Hyper-V</span>
+      </div>
+      <div class="cm-col">
+        <span class="cm-val">14</span>
+        <i style="height:9px"></i>
+        <span class="cm-name">Nutanix</span>
+      </div>
+      <div class="cm-col">
+        <span class="cm-val">9</span>
+        <i style="height:6px"></i>
+        <span class="cm-name">Proxmox</span>
+      </div>
+    </div>
     <p class="cm-note">Nutanix plus Proxmox = 9.6% of VMware roles. The forecast below turns on that ratio.</p>
   </div>
   <figcaption>Exact-phrase searches on Seek, Australia-wide, 2 November 2026. A measurement on one day, not a standing fact.</figcaption>
@@ -145,8 +167,16 @@ contract calendar, that is at best incomplete.
 VMware expertise stays relevant whether an organisation renews or leaves. A large installed base
 needs people to run it, and a move needs people who understand what is being replaced. The counts
 cannot tell you how much of the demand is which, and anyone citing them owes you the reading they
-mean. What they do show is that the alternatives are barely advertised yet — which is different
-from their never being.
+mean.
+
+One more thing they cannot tell you cleanly, and it is why the forecast below counts only Nutanix
+and Proxmox. Taken together, the three alternatives account for 125 advertised roles against
+VMware's 239 — a bit over half, which sounds like a market that has already arrived. But Hyper-V
+is most of that, and Windows shops were running Hyper-V long before Broadcom repriced anything, so
+its count says more about the installed Microsoft estate than about anyone leaving VMware. Nutanix
+and Proxmox start from much smaller numbers, so their relative growth is a more focused signal —
+though still an indirect one, since those counts also carry ordinary operational hiring for
+installations that already exist.
 
 ## So, what would I learn
 
