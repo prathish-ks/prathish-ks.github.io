@@ -167,8 +167,15 @@ contract calendar, that is at best incomplete.
 VMware expertise stays relevant whether an organisation renews or leaves. A large installed base
 needs people to run it, and a move needs people who understand what is being replaced. The counts
 cannot tell you how much of the demand is which, and anyone citing them owes you the reading they
-mean. What they do show is that the alternatives are barely advertised yet — which is different
-from their never being.
+mean.
+
+One more thing they cannot tell you cleanly, and it is why the forecast below counts only Nutanix
+and Proxmox. Taken together, the three alternatives account for 125 advertised roles against
+VMware's 239 — a bit over half, which sounds like a market that has already arrived. But Hyper-V
+is most of that, and Windows shops were running Hyper-V long before Broadcom repriced anything, so
+its count says more about the installed Microsoft estate than about anyone leaving VMware. Nutanix
+and Proxmox start from almost nothing, which makes movement in those two a cleaner signal even
+though it is a narrower one.
 
 ## So, what would I learn
 
