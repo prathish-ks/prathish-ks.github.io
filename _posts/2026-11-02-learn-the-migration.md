@@ -42,6 +42,15 @@ thousands of systems on it. Leaving means moving every one of them.*
   <text x="499.0" y="105" font-size="12.5" font-weight="600" fill="var(--text)">A$379.3m · 13</text>
   <text x="0" y="150" font-size="11.5" fill="var(--muted)">19 contracts, 11 agencies. Contract end dates, not a schedule of work.</text>
   </svg>
+  <div class="chart-mobile" aria-hidden="true">
+    <p class="cm-title">Most of the value expires in 2028</p>
+    <p class="cm-sub">Published value of Commonwealth VMware contracts, by year of expiry</p>
+    <div class="cm-row"><span class="cm-name">2027</span><span class="cm-val">A$106.0m · 6</span></div>
+    <div class="cm-bar"><i style="width:27.9%"></i></div>
+    <div class="cm-row"><span class="cm-name">2028</span><span class="cm-val">A$379.3m · 13</span></div>
+    <div class="cm-bar"><i style="width:100.0%"></i></div>
+    <p class="cm-note">19 contracts, 11 agencies. Contract end dates, not a schedule of work.</p>
+  </div>
   <figcaption>Published contract value and count by year of expiry. AusTender notices, read 2 November 2026.</figcaption>
 </figure>
 
@@ -114,6 +123,19 @@ None of that is bought in a licence. It is bought in people.
   <text x="210.3" y="173" font-size="12.5" font-weight="600" fill="var(--text)">9</text>
   <text x="0" y="218" font-size="11.5" fill="var(--muted)">Nutanix plus Proxmox = 9.6% of VMware roles. The forecast below turns on that ratio.</text>
   </svg>
+  <div class="chart-mobile" aria-hidden="true">
+    <p class="cm-title">The alternatives are barely advertised yet</p>
+    <p class="cm-sub">Advertised Australian roles naming each platform, 2 November 2026</p>
+    <div class="cm-row"><span class="cm-name">VMware</span><span class="cm-val">239</span></div>
+    <div class="cm-bar"><i style="width:100.0%"></i></div>
+    <div class="cm-row"><span class="cm-name">Hyper-V</span><span class="cm-val">102</span></div>
+    <div class="cm-bar"><i style="width:42.7%"></i></div>
+    <div class="cm-row"><span class="cm-name">Nutanix</span><span class="cm-val">14</span></div>
+    <div class="cm-bar"><i style="width:5.9%"></i></div>
+    <div class="cm-row"><span class="cm-name">Proxmox</span><span class="cm-val">9</span></div>
+    <div class="cm-bar"><i style="width:3.8%"></i></div>
+    <p class="cm-note">Nutanix plus Proxmox = 9.6% of VMware roles. The forecast below turns on that ratio.</p>
+  </div>
   <figcaption>Exact-phrase searches on Seek, Australia-wide, 2 November 2026. A measurement on one day, not a standing fact.</figcaption>
 </figure>
 

@@ -80,10 +80,26 @@ figure { margin: 2.4rem 0; padding: 1.4rem 1.3rem 1rem; background: var(--surfac
    experience than reading one and a far better one than squinting at it;
    each chart also carries its full data in an aria-label for anyone who
    cannot or would rather not. */
-figure:has(svg) { overflow-x: auto; }
-figure svg { min-width: 560px; }
-@media (min-width: 620px) { figure svg { min-width: 0; } }
+.chart-mobile { display: none; }
+.cm-title { font-size: 1.02rem; font-weight: 600; margin: 0 0 0.15rem; line-height: 1.3; }
+.cm-sub { font-size: 0.84rem; color: var(--muted); margin: 0 0 1rem; }
+.cm-row { display: flex; justify-content: space-between; align-items: baseline;
+  gap: 0.8rem; font-size: 0.95rem; margin: 0.9rem 0 0.25rem; }
+.cm-name { font-weight: 600; }
+.cm-val { color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.cm-bar { height: 10px; background: var(--surface-2); border-radius: 5px; overflow: hidden; }
+.cm-bar i { display: block; height: 100%; background: var(--s1); border-radius: 5px; }
+.cm-note { font-size: 0.82rem; color: var(--muted); margin: 1rem 0 0; }
 figure svg { display: block; width: 100%; height: auto; }
+/* Below the site's existing breakpoint the SVG is replaced rather than shrunk.
+   Scaled into a phone column its labels reach 4.4px against 19.2px body text.
+   Must sit after the base rule above, which is unconditional and would
+   otherwise win at every width — it did, and both presentations rendered at
+   once. */
+@media (max-width: 640px) {
+  figure > svg { display: none; }
+  .chart-mobile { display: block; }
+}
 figcaption { font-size: 0.82rem; color: var(--muted); margin-top: 0.9rem; padding-top: 0.8rem; border-top: 1px solid var(--line); }
 
 /* tables */
