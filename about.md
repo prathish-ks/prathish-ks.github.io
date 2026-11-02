@@ -13,7 +13,7 @@ show.
 Two strands. **Cost and procurement** — contract records, renewal cycles, vendor pricing, and why
 a headline figure and an annualised one so often disagree. **Obligation and resilience** — what
 operational-resilience and third-party-risk rules actually oblige an organisation to produce, and
-which parts of that technology can and cannot supply.
+what evidence technology can and cannot supply toward them.
 
 Everything here is built from public sources: published contract notices, regulatory texts and
 technical standards, vendor documentation, and job-posting data. **No client-confidential material
@@ -31,23 +31,30 @@ appears on this site, and none ever will.**
 - Where I assess a product, I assess what its own documentation claims. Nothing here has been
   trialled or demonstrated unless a piece says otherwise.
 - **AI tools are part of how this work gets done** — finding sources, reading them at volume,
-  extracting and structuring data, and drafting. Every figure is then verified against the primary
-  source, and the claims are mine. In practice the most common thing this process catches is a
+  extracting and structuring data, and drafting. What happens next depends on the kind of figure.
+  A figure taken from a document is checked against that document. A derived figure — an
+  annualised value, a share, a total — is recomputed independently. A measurement taken on a
+  given day, such as a count of advertised roles, cannot be re-checked later, so it is dated and
+  published as a measurement rather than as a standing fact. The interpretations and the
+  conclusions are mine. In practice the most common thing this process catches is a
   widely-repeated secondary figure that the original document does not support.
 
 ## A note on assessing products against regulation
 
-Products do not comply with regulations. Organisations do. So where a piece looks at technology
-against a regulatory obligation, it asks which parts of the obligation a product can supply
-evidence for — never whether the product "complies". The distinction matters, and most writing in
-this area ignores it.
+No product makes an organisation compliant. Obligations under operational-resilience and
+third-party-risk rules fall on the organisation, not on its suppliers — so where a piece looks at
+technology against one of those obligations, it asks what evidence a product can supply toward it,
+never whether the product "complies". Some products carry conformity or certification obligations
+of their own; that is a different question from the one these pieces ask.
 
 ## Disclosure
 
 - Any commercial relationship relevant to a piece is disclosed in that piece.
-- Assessments are published before any commercial relationship exists with the subject.
-- **I will not publish a more favourable assessment of a product after entering a commercial
-  relationship with the organisation behind it.**
+- A product's first assessment is published before any commercial relationship with its vendor
+  exists.
+- **No assessment is revised because of a commercial relationship — in either direction.** If a
+  relationship would stop me assessing something honestly, I say so and publish nothing, rather
+  than publish something shaped by it.
 
 Nothing on this site is sponsored, and no organisation has reviewed or approved a piece before
 publication.

@@ -17,8 +17,8 @@ Two strands, same method:
 - **What organisations pay.** Procurement records, renewal cycles, vendor pricing, and the gap
   between the headline number and the annualised one.
 - **What regulators require.** Operational resilience and third-party risk obligations — what the
-  text actually obliges an organisation to produce, and which of it technology can and cannot
-  supply.
+  text actually obliges an organisation to produce, and what evidence technology can and cannot
+  supply toward meeting it.
 
 Every forecast I make is [published with a date, a confidence level and a falsification
 trigger](/registry/) — and scored afterwards, including the ones I get wrong.
