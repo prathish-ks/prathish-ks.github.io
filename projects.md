@@ -44,7 +44,7 @@ behavioural regression contracts so a security property that silently stops hold
 Built with fuzzing and race testing throughout.
 
 Building it turned up a high-severity flaw in the upstream project itself —
-[GHSA-vwj5-j44r-v364](https://github.com/advisories/GHSA-vwj5-j44r-v364), CVSS 7.8 — which I
+[GHSA-vwj5-j44r-v364](https://github.com/nanocoai/nanoclaw/security/advisories/GHSA-vwj5-j44r-v364), CVSS 7.8 — which I
 reported and am credited for.
 
 [github.com/prathish-ks/isthmus](https://github.com/prathish-ks/isthmus)
