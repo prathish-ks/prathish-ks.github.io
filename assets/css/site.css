@@ -218,3 +218,65 @@ html, body { max-width: 100%; overflow-x: hidden; }
   .table-scroll:has(.contracts) { overflow-x: visible; }
   .evidence { padding: 0.2rem 0.9rem 1.1rem; }
 }
+
+/* ---- forecast registry: six columns, two of them prose ----
+   A second restack, not a copy of the contracts one. That table carries short
+   facts and pairs label beside value; this one carries two long sentences, and
+   a 1fr value column next to a label leaves them 220px wide. So the mechanism
+   is shared below (hidden thead, label from data-l) and the layout is not.
+   The markdown table this replaces measured 626px inside a 375px viewport with
+   no scroll container, so body's overflow-x:hidden clipped the last two
+   columns away with no way to reach them. */
+.forecasts td[data-l] { text-align: left; }
+/* th is globally nowrap, which is right for short headers. "Leading indicator"
+   held the column open and pushed the table 30px past the measure, so the two
+   sentence columns lost the width to a header that could simply wrap. */
+.forecasts th { text-align: left; white-space: normal; }
+.forecasts td[data-l="Made"], .forecasts td[data-l="Resolves"] { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.forecasts td[data-l="Confidence"] { font-variant-numeric: tabular-nums; }
+.forecasts a { text-decoration: none; }
+/* Six columns inside a 44rem measure spend 180px of it on cell padding alone,
+   and the four short columns then leave the two sentences ~130px each — three
+   words to a line. The percentages below are a request, not a guarantee: the
+   short columns' content sets their real width, so the padding and the header
+   tracking have to come down for the request to be grantable. */
+.forecasts th, .forecasts td { padding-left: 0.55rem; padding-right: 0.55rem; }
+.forecasts th { font-size: 0.7rem; letter-spacing: 0.03em; }
+.forecasts th:nth-child(1) { width: 1.5rem; }
+.forecasts th:nth-child(3) { width: 34%; }
+.forecasts th:nth-child(5) { width: 30%; }
+
+@media (max-width: 700px) {
+  .forecasts, .forecasts tbody, .forecasts tr, .forecasts td { display: block; }
+  .forecasts thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  /* 0.9rem is fine for a grid of dates; these are sentences, and the charts
+     taught the same lesson — body text on a phone must not shrink to decoration */
+  .forecasts { font-size: 0.95rem; }
+  .forecasts tr {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 0.85rem 0.9rem;
+    padding: 1.1rem 1rem; border-bottom: 1px solid var(--line);
+  }
+  .forecasts tr:last-child { border-bottom: 0; }
+  .forecasts td { padding: 0; border: 0; min-width: 0; }
+  .forecasts td::before {
+    content: attr(data-l); display: block; margin-bottom: 0.2rem;
+    color: var(--muted); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em;
+  }
+  /* Placed explicitly, because auto-placement does not do what it looks like it
+     does: the full-width sentence after Confidence starts a new row, so
+     Confidence sat alone with an empty half beside it and Resolves — last in
+     document order — ended up stranded under the leading indicator, far from
+     the confidence it belongs next to. */
+  .forecasts td[data-l="#"]                 { grid-area: 1 / 1; }
+  .forecasts td[data-l="Made"]              { grid-area: 1 / 2; }
+  .forecasts td[data-l="Forecast"]          { grid-area: 2 / 1 / 3 / -1; }
+  .forecasts td[data-l="Confidence"]        { grid-area: 3 / 1; }
+  .forecasts td[data-l="Resolves"]          { grid-area: 3 / 2; }
+  .forecasts td[data-l="Leading indicator"] { grid-area: 4 / 1 / 5 / -1; }
+  /* "# 1" says nothing standing alone, so the number becomes the card's title */
+  .forecasts td[data-l="#"] { font-weight: 600; }
+  .forecasts td[data-l="#"]::before { content: "Forecast "; display: inline; margin: 0; }
+  /* and with that title directly above it, labelling the sentence "Forecast" twice reads as a fault */
+  .forecasts td[data-l="Forecast"]::before { content: none; }
+  .table-scroll:has(.forecasts) { overflow-x: visible; }
+}

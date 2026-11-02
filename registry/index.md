@@ -18,10 +18,29 @@ appear as new rows.
 
 ## Open
 
-| # | Made | Forecast | Confidence | Leading indicator | Resolves |
-| --- | --- | --- | --- | --- | --- |
-| 1 | [2026-10-17](/2026/10/commonwealth-vmware-contracts/) | Of the 19 Commonwealth VMware contracts identified in that analysis, more than half by count will be followed, within 12 months of expiry, by a new AusTender notice from the same agency naming VMware or its successor entity as supplier | 65% | Nutanix + Proxmox as a share of advertised VMware roles in Australia. 11% at baseline; a durable rise above 15% weakens the call | 2030-02-28 |
-| 2 | [2026-11-02](/2026/11/learn-the-migration/) | Advertised Australian roles naming Nutanix or Proxmox, as a share of advertised roles naming VMware, will exceed 15% — up from 9.6% at the baseline measurement | 40% | Public procurement notices for alternative virtualisation platforms, particularly from agencies that already hold VMware contracts. That indicates migration investment; it does not establish that the work will be hired for in Australia | 2028-07-29 |
+<div class="table-scroll">
+<table class="forecasts">
+  <thead><tr><th>#</th><th>Made</th><th>Forecast</th><th>Confidence</th><th>Leading indicator</th><th>Resolves</th></tr></thead>
+  <tbody>
+    <tr>
+      <td data-l="#">1</td>
+      <td data-l="Made"><a href="/2026/10/commonwealth-vmware-contracts/">2026-10-17</a></td>
+      <td data-l="Forecast">Of the 19 Commonwealth VMware contracts identified in that analysis, more than half by count will be followed, within 12 months of expiry, by a new AusTender notice from the same agency naming VMware or its successor entity as supplier</td>
+      <td data-l="Confidence">65%</td>
+      <td data-l="Leading indicator">Nutanix + Proxmox as a share of advertised VMware roles in Australia. 11% at baseline; a durable rise above 15% weakens the call</td>
+      <td data-l="Resolves">2030-02-28</td>
+    </tr>
+    <tr>
+      <td data-l="#">2</td>
+      <td data-l="Made"><a href="/2026/11/learn-the-migration/">2026-11-02</a></td>
+      <td data-l="Forecast">Advertised Australian roles naming Nutanix or Proxmox, as a share of advertised roles naming VMware, will exceed 15% — up from 9.6% at the baseline measurement</td>
+      <td data-l="Confidence">40%</td>
+      <td data-l="Leading indicator">Public procurement notices for alternative virtualisation platforms, particularly from agencies that already hold VMware contracts. That indicates migration investment; it does not establish that the work will be hired for in Australia</td>
+      <td data-l="Resolves">2028-07-29</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 **Forecasts 1 and 2 test different things and can both land.** The first is about nineteen named
 Commonwealth contracts and whether they are followed by another VMware notice. The second is
