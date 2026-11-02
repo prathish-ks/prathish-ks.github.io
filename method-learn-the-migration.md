@@ -46,7 +46,7 @@ been trialled, benchmarked or reference-checked.
     <tr><td data-l="Platform">Nutanix AHV</td><td data-l="Licence">Bundled with a paid Nutanix Cloud Infrastructure licence</td><td data-l="Tools">Nutanix Move, included</td></tr>
     <tr><td data-l="Platform">Red Hat OpenShift Virtualization</td><td data-l="Licence">Under an OpenShift subscription</td><td data-l="Tools">Migration Toolkit for Virtualization, included</td></tr>
     <tr><td data-l="Platform">Proxmox VE</td><td data-l="Licence">Free to run; a subscription buys the enterprise repository and support</td><td data-l="Tools">Built-in ESXi importer</td></tr>
-    <tr><td data-l="Platform">Microsoft Hyper-V</td><td data-l="Licence">Included in Windows Server licensing</td><td data-l="Tools"><a href="https://learn.microsoft.com/en-us/system-center/vmm/vm-convert-vmware?view=sc-vmm-2025">System Center VMM conversion</a> (requires System Center licensing), and the free <a href="https://learn.microsoft.com/en-us/windows-server/manage/windows-admin-center/use/vm-conversion-extension-overview">Windows Admin Center VM Conversion extension</a>, in public preview and limited to ten machines per batch</td></tr>
+    <tr><td data-l="Platform">Microsoft Hyper-V</td><td data-l="Licence">Included in Windows Server licensing</td><td data-l="Tools"><span><a href="https://learn.microsoft.com/en-us/system-center/vmm/vm-convert-vmware?view=sc-vmm-2025">System Center VMM conversion</a> (requires System Center licensing), and the free <a href="https://learn.microsoft.com/en-us/windows-server/manage/windows-admin-center/use/vm-conversion-extension-overview">Windows Admin Center VM Conversion extension</a>, in public preview and limited to ten machines per batch</span></td></tr>
   </tbody>
 </table>
 </div>
