@@ -41,14 +41,19 @@ been trialled, benchmarked or reference-checked.
 
 <div class="table-scroll">
 <table class="contracts">
-  <thead><tr><th>Platform</th><th>Hypervisor licence</th><th>First-party ESXi guest conversion</th></tr></thead>
+  <thead><tr><th>Platform</th><th>What ends the VMware licence</th><th>First-party tools to move systems across</th></tr></thead>
   <tbody>
-    <tr><td data-l="Platform">Nutanix AHV</td><td data-l="Licence">Included with Nutanix Cloud Infrastructure</td><td data-l="Conversion">Nutanix Move</td></tr>
-    <tr><td data-l="Platform">Red Hat OpenShift Virtualization</td><td data-l="Licence">Under an OpenShift subscription</td><td data-l="Conversion">Migration Toolkit for Virtualization</td></tr>
-    <tr><td data-l="Platform">Proxmox VE</td><td data-l="Licence">None; a subscription buys the enterprise repository and support</td><td data-l="Conversion">Native ESXi import wizard</td></tr>
-    <tr><td data-l="Platform">Microsoft Hyper-V</td><td data-l="Licence">Included in the Windows Server licence</td><td data-l="Conversion">None — Azure Migrate, Veeam or MVMC</td></tr>
+    <tr><td data-l="Platform">Nutanix AHV</td><td data-l="Licence">Bundled with a paid Nutanix Cloud Infrastructure licence</td><td data-l="Tools">Nutanix Move, included</td></tr>
+    <tr><td data-l="Platform">Red Hat OpenShift Virtualization</td><td data-l="Licence">Under an OpenShift subscription</td><td data-l="Tools">Migration Toolkit for Virtualization, included</td></tr>
+    <tr><td data-l="Platform">Proxmox VE</td><td data-l="Licence">Free to run; a subscription buys the enterprise repository and support</td><td data-l="Tools">Built-in ESXi importer</td></tr>
+    <tr><td data-l="Platform">Microsoft Hyper-V</td><td data-l="Licence">Included in Windows Server licensing</td><td data-l="Tools"><a href="https://learn.microsoft.com/en-us/system-center/vmm/vm-convert-vmware?view=sc-vmm-2025">System Center VMM conversion</a> (requires System Center licensing), and the free <a href="https://learn.microsoft.com/en-us/windows-server/manage/windows-admin-center/use/vm-conversion-extension-overview">Windows Admin Center VM Conversion extension</a>, in public preview and limited to ten machines per batch</td></tr>
   </tbody>
 </table>
+
+<p>All four ship first-party conversion tooling. They differ in maturity, in batch size, and in
+whether the tool itself carries a licence cost. Capability is read from each vendor's published
+documentation; nothing here has been trialled or benchmarked. The Microsoft standalone converter
+(MVMC) reached end of support in 2017 and is not a current option.</p>
 </div>
 
 **Job counts.** Exact-phrase searches on Seek, Australia-wide. Measured 2 November 2026: VMware
@@ -60,9 +65,13 @@ delivered by an integrator, an offshore team or redeployed internal staff produc
 advertisement, and vacancies are often written as "infrastructure modernisation" without naming a
 destination.
 
-**Defence's direction** to move off VMware, and the report that its licence bill would double,
-were [reported by iTnews](https://www.itnews.com.au/news/defence-mandates-move-off-vmware-629929)
-on 30 October 2026, by Ry Crozier. Neither claim is independently verified here.
+**Defence's direction.** [Reported by iTnews](https://www.itnews.com.au/news/defence-mandates-move-off-vmware-629929)
+on 30 October 2026, by Ry Crozier. The report states the "mandate" was issued around September
+2025, months before the A$178.1 million renewal was revealed; that its formality is unclear and
+Defence declined to comment on its scope; that it applies to all parts of Defence with VMware
+exposure; and that cost is not the only driver, with sovereignty also a concern. It rests on
+unnamed sources. Nothing in it is independently verified here, and the reading of the renewal as
+runway for a transition is my inference, not the report's.
 
 ---
 
