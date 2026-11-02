@@ -18,7 +18,9 @@
     <div class="wrap">
       <a class="site-name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
       <nav class="site-nav">
-        <a href="{{ '/registry/' | relative_url }}">Forecast registry</a>
+        <a href="{{ '/' | relative_url }}">Writing</a>
+        <a href="{{ '/projects/' | relative_url }}">Projects</a>
+        <a href="{{ '/registry/' | relative_url }}">Forecasts</a>
         <a href="{{ '/about/' | relative_url }}">About</a>
       </nav>
     </div>
@@ -26,8 +28,10 @@
   <main class="wrap">{{ content }}</main>
   <footer class="site-foot">
     <div class="wrap">
-      Independent research on enterprise software economics. Built from public sources.
+      &copy; {{ site.time | date: "%Y" }} Prathish Kumar Srinivasan &middot; Views are my own,
+      not those of any employer.
       &middot; <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+      &middot; <a href="https://github.com/prathish-ks" rel="me">GitHub</a>
     </div>
   </footer>
 </body>
