@@ -94,23 +94,6 @@ figure { margin: 2.4rem 0; padding: 1.4rem 1.3rem 1rem; background: var(--surfac
   overflow-wrap: anywhere; }
 .cm-note { font-size: 0.82rem; color: var(--muted); margin: 1rem 0 0; }
 
-/* An architecture diagram on a phone.
-   The SVG puts its finding in the x-position of a dot: where the dot sits is
-   which control stops that breach. At 320px the dots are a few pixels apart
-   and the finding is gone, so position becomes a sentence instead. Same
-   generator, same arguments, so the two presentations cannot drift. */
-.cm-chain { list-style: none; counter-reset: step; padding: 0; margin: 0 0 1.1rem;
-  display: flex; flex-direction: column; gap: 0.4rem; }
-.cm-chain li { counter-increment: step; display: grid; grid-template-columns: 1.5rem 1fr;
-  align-items: baseline; font-size: 0.95rem; }
-.cm-chain li::before { content: counter(step); color: var(--muted); font-size: 0.78rem;
-  font-variant-numeric: tabular-nums; }
-.cm-chain li span { display: block; grid-column: 2; color: var(--muted); font-size: 0.84rem; }
-.cm-flow { margin: 0; }
-.cm-flow dt { font-size: 0.95rem; font-weight: 600; margin-top: 0.7rem; }
-.cm-flow dd { margin: 0.1rem 0 0; font-size: 0.88rem; color: var(--muted); }
-.cm-flow dd.up { color: var(--accent-2); font-style: italic; }
-
 /* Separately dated observations on a phone.
    The column chart put five of these at 52px wide, wrapped every label to six
    lines and drew the last three bars at four, three and three pixels. Stacked

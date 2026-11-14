@@ -5,7 +5,7 @@ subtitle: "A stolen credential belonging to a Microsoft 365 backup service allow
 date: 2026-11-14
 slug: one-vendor-credential-many-customers
 image: /assets/og/one-vendor-credential.png
-image_alt: "One vendor credential, many customers. One stolen credential belonging to the vendor; 2,250+ customer environments with attempted sign-ins; 162 environments with confirmed sign-ins; 2 where follow-on activity was seen. Not how a vendor stores credentials — how far one can act for you."
+image_alt: "A dark card headed 'One vendor credential, many customers', with four figures across it: 1 stolen credential belonging to the vendor, 2,250+ customer environments with attempted sign-ins, 162 environments with confirmed sign-ins, and 2 where follow-on activity was seen. A highlighted line reads: not how a vendor stores credentials — how far one can act for you."
 description: "A stolen credential belonging to a Microsoft 365 backup service allowed unauthorised access to customer environments. What investigators confirmed, what remains unknown, and the four properties of a credential that decide the consequences."
 ---
 
@@ -83,12 +83,18 @@ available to it, not every ConnectWise customer and not every Microsoft 365 envi
 A successful unauthorised sign-in confirms that someone got in. It does not establish what they
 reached, or whether anything was taken.
 
-In two of those environments, Huntress examined what happened next. A separate family of
-ConnectWise applications — its Cloud Management products, distinct from the backup service the
-stolen credential belonged to — obtained administrator-level permissions, then added new
-authentication credentials to other applications already present in the customer's environment.
-That last step matters commercially rather than technically: those added credentials would keep
-working after the original stolen one was cancelled.
+Separately, Huntress investigated suspicious changes in two customer environments involving a
+different family of ConnectWise applications — its Cloud Management products, not the backup
+service the stolen credential belonged to. Those applications obtained administrator-level
+permissions and added new authentication credentials to other applications already present in
+the environment.
+
+That second part matters commercially rather than technically: credentials added that way keep
+working after the original one is cancelled, unless somebody finds and removes them.
+
+Huntress is careful about how the two connect, and so am I. That activity happened about two
+and a half hours *before* the sign-ins from the attacker's address, and Huntress says it has
+not tied the two phases to the same operator.
 
 Microsoft reached further. Its own investigation
 [attributed the activity](https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/)
@@ -141,7 +147,7 @@ than the others here.
 
 ## What actually decides the consequences
 
-Four properties of a credential do more to determine the damage than the method of theft does.
+Four properties of a credential help explain the potential consequences of its compromise.
 They are worth knowing because they are answerable about credentials an organisation already
 has.
 
@@ -175,23 +181,23 @@ described above. Nothing here would certainly have prevented any of these incide
   <tbody>
     <tr>
       <td data-l="Example">ConnectWise</td>
-      <td data-l="How security tools could help">Workload identity platforms can issue applications short-lived credentials instead of standing ones, so a stolen credential expires on its own. Credential discovery tools can show which applications hold access in the first place. Aembit and Microsoft Entra Workload Identity Federation describe the first; Clutch, Token Security and GitGuardian the second.</td>
-      <td data-l="What remains your responsibility">The vendor is responsible for protecting its own credential. The customer decides what the application was authorised to reach, reviews that periodically, watches for unexpected use, and acts when a vendor discloses. None of that is purchased.</td>
+      <td data-l="How security tools could help">Where a vendor's architecture supports it, workload identity federation or short-lived credentials reduce reliance on a reusable secret — Aembit and Microsoft Entra Workload Identity Federation describe this. On the customer side, identity discovery tools such as Clutch and Token Security can surface which third-party applications hold access; secret detection such as GitGuardian addresses a different exposure path.</td>
+      <td data-l="What remains your responsibility">A customer cannot replace a vendor's authentication design. What a customer does control is what the application was authorised to reach, how often that is reviewed, whether unexpected use would be noticed, and how fast it acts on a disclosure.</td>
     </tr>
     <tr>
       <td data-l="Example">Stolen AI service keys</td>
-      <td data-l="How security tools could help">An AI gateway can route all model traffic through one path and apply spending and rate limits per key, which caps the bill when a key leaks. Kong's AI Gateway describes this. Secret management tools can deliver keys at runtime rather than leaving them stored.</td>
-      <td data-l="What remains your responsibility">A gateway only governs traffic that goes through it. Closing the direct path to the provider, noticing an unexpected bill quickly, and cancelling a key fast are organisational tasks, not product features.</td>
+      <td data-l="How security tools could help">An AI gateway can centralise authorised AI requests and apply usage or cost limits to traffic that passes through it; Kong's AI Gateway documents cost-based rate limiting. Secret management tools can reduce how widely provider keys are stored and handled.</td>
+      <td data-l="What remains your responsibility">Neither stops a stolen provider credential being used directly against the provider, outside the gateway, unless that path is separately restricted. Noticing an unexpected bill and cancelling a key quickly are organisational, not product, capabilities.</td>
     </tr>
     <tr>
       <td data-l="Example">Secrets in a developer tool</td>
-      <td data-l="How security tools could help">Secrets can be injected at runtime so a person never handles the value — HashiCorp Vault Agent describes this. Repositories can block known secret formats before they are published, which GitHub push protection does, and scanners such as GitGuardian can find ones already out.</td>
+      <td data-l="How security tools could help">Where supported, secrets can be delivered at runtime rather than placed in commands or configuration — HashiCorp Vault Agent describes this. Repositories can block recognised secret formats before publication, which GitHub push protection does, and scanners such as GitGuardian can find those already out.</td>
       <td data-l="What remains your responsibility">Whether every repository and every developer tool actually uses these, whether the practice of typing secrets into commands has changed, and rotating anything already exposed. Deleting a file does not take back what was published.</td>
     </tr>
     <tr>
       <td data-l="Example">Chainalysis</td>
       <td data-l="How security tools could help">Less than the others. Shorter session lifetimes and stronger identity controls reduce how long a stolen session remains usable. This case involved human passwords and interception as well as machine credentials, so no single control on this list addresses it.</td>
-      <td data-l="What remains your responsibility">A customer of a breached provider has to invalidate sessions, reset affected credentials and work out what those credentials reached. The provider's remediation and the customer's are separate tasks.</td>
+      <td data-l="What remains your responsibility">Invalidating sessions it issued is the provider's to do. A customer resets its own affected credentials, reviews what those credentials could reach, and checks for use of them elsewhere. The two remediations are separate and neither substitutes for the other.</td>
     </tr>
   </tbody>
 </table>
