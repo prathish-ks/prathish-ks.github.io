@@ -93,6 +93,18 @@ figure { margin: 2.4rem 0; padding: 1.4rem 1.3rem 1rem; background: var(--surfac
 .cm-name { font-size: 0.86rem; color: var(--muted); margin: 0.45rem 0 0; text-align: center;
   overflow-wrap: anywhere; }
 .cm-note { font-size: 0.82rem; color: var(--muted); margin: 1rem 0 0; }
+
+/* Separately dated observations on a phone.
+   The column chart put five of these at 52px wide, wrapped every label to six
+   lines and drew the last three bars at four, three and three pixels. Stacked
+   rows have no competition for width, and the date belongs beside each figure
+   rather than in a single caption that would imply they share one. */
+.cm-obs { margin: 0; }
+.cm-obs dt { font-size: 1.15rem; font-weight: 600; color: var(--accent);
+  font-variant-numeric: tabular-nums; margin-top: 0.9rem; }
+.cm-obs dd { margin: 0.1rem 0 0; font-size: 0.92rem; line-height: 1.45; }
+.cm-obs dd span { display: block; font-size: 0.78rem; color: var(--muted);
+  margin-top: 0.1rem; }
 figure svg { display: block; width: 100%; height: auto; }
 /* Below the site's existing breakpoint the SVG is replaced rather than shrunk.
    Scaled into a phone column its labels reach 4.4px against 19.2px body text.
@@ -279,4 +291,35 @@ html, body { max-width: 100%; overflow-x: hidden; }
   /* and with that title directly above it, labelling the sentence "Forecast" twice reads as a fault */
   .forecasts td[data-l="Forecast"]::before { content: none; }
   .table-scroll:has(.forecasts) { overflow-x: visible; }
+}
+
+/* ---- controls comparison: a table on desktop, three-field cards on a phone ----
+   The third restack in this stylesheet, and the first with three fields of
+   roughly equal weight. The contracts table pairs a short label beside a short
+   value; the forecast registry gives two long sentences the full width. This
+   one has one short cell and two paragraphs, so the example heads the card and
+   the two explanations stack beneath it, each under its own label — which is
+   what a reader needs in order to compare one row against the next. */
+.controls td[data-l] { text-align: left; vertical-align: top; }
+.controls th { text-align: left; white-space: normal; vertical-align: bottom; }
+.controls th, .controls td { padding: 0.75rem 0.7rem; }
+.controls th:nth-child(1) { width: 16%; }
+.controls td[data-l="Example"] { font-weight: 600; }
+
+@media (max-width: 760px) {
+  .controls, .controls tbody, .controls tr, .controls td { display: block; }
+  .controls thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .controls tr { padding: 1.05rem 1rem; border-bottom: 1px solid var(--line); }
+  .controls tr:last-child { border-bottom: 0; }
+  .controls td { padding: 0; border: 0; }
+  .controls td[data-l="Example"] { font-size: 1.05rem; margin-bottom: 0.7rem; }
+  /* The example is the card's title; labelling it again reads as a fault, which
+     is the same decision the forecast cards needed. */
+  .controls td[data-l="Example"]::before { content: none; }
+  .controls td:not([data-l="Example"]) { margin-top: 0.7rem; }
+  .controls td:not([data-l="Example"])::before {
+    content: attr(data-l); display: block; margin-bottom: 0.2rem;
+    color: var(--muted); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em;
+  }
+  .table-scroll:has(.controls) { overflow-x: visible; }
 }
